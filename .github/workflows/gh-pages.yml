@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - name: Find theme
         run: |
-          "SITE_THEME=$(./get-theme.js)" >> $GITHUB_ENV
+          echo "SITE_THEME=$(./get-theme.js)" >> $GITHUB_ENV
       - run: npm run build -- --theme ${{ env.SITE_THEME }}
 
       - name: Deploy
