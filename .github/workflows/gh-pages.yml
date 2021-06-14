@@ -14,6 +14,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+          
+      - name: Configure git
+        uses: fusion-engineering/setup-git-credentials@v2
+        with:
+          credentials: ${{secrets.PUBLIC_READ_PAT}}
 
       - name: Cache dependencies
         uses: actions/cache@v2
