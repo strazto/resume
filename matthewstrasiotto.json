@@ -130,5 +130,37 @@
         "git", "*nix environments", "ssh/remote only", "HPC", "shell scripting (lol)", "building/debugging"
       ]
     }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "Fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": ["R&B", "Soul"]
+    },
+    {
+      "name": "Performance",
+      "keywords": ["Dance", "Music", "Live Performance"]
+    },
+    {
+      "name": "Games",
+      "keywords": ["Dungeons & Dragons", "TTRPG"]
+    },
+    {
+      "name": "FOSS",
+      "keywords": [
+        "Command-line UX"
+      ]
+    }
+  ],
+  "references": [
+    {
+      ""
+    }
   ]
+
 }
