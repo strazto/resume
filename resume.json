@@ -140,22 +140,12 @@
   ],
   "interests": [
     {
-      "name": "Music",
-      "keywords": ["R&B", "Soul"]
+      "name": "Music / Art",
+      "keywords": ["R&B", "Soul", "Dance", "Live Performance"]
     },
     {
-      "name": "Performance",
-      "keywords": ["Dance", "Music", "Live Performance"]
-    },
-    {
-      "name": "Games",
-      "keywords": ["Dungeons & Dragons", "TTRPG"]
-    },
-    {
-      "name": "FOSS",
-      "keywords": [
-        "Command-line UX"
-      ]
+      "name": "Nerdy stuff",
+      "keywords": ["Dungeons & Dragons", "TTRPG", "FOSS", "Command-line UX"]
     }
   ],
   "references": [
