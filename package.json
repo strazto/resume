@@ -3,10 +3,11 @@
   "dependencies": {
     "-": "^0.0.1",
     "extract-json": "^0.2.0",
+    "jsonresume-theme-elegant": "^1.16.1",
     "resume-cli": "^3.0.4"
   },
   "scripts": {
-    "get-theme": "extract-json resume.json meta theme",
+    "get-theme": "./get-theme.js",
     "build": "resume export ./public/index.html"
   }
 }
