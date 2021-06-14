@@ -60,8 +60,8 @@
     {
       "company"   : "Westmead Children's Hospital | Darug/Western Sydney",
       "position"  : "Contingency Worker/Researcher",
-      "startDate" : "01-01-2018",
-      "endDate"   : "01-03-2018",
+      "startDate" : "2018-01-01",
+      "endDate"   : "2018-03-01",
       "summary"   : "",
       "highlights": [
         "Design and implementation of powerful data-transformation/analysis programs and scripts using Python, R",
@@ -76,7 +76,7 @@
       "area"        : "B. Electrical Engineering | IoT Major",
       "studyType"   : "",
       "startDate"   : "2017-03-01",
-      "endDate"     : "",
+      "endDate"     : "2021-07-01",
       "gpa"         : "HD Level for computer science UoS"
     },
     {
@@ -159,7 +159,12 @@
   ],
   "references": [
     {
-      ""
+      "name"     : "Charmaine Tam",
+      "reference": "...TODO - get this"
+    },
+    {
+      "name"     : "John Stavrakakis",
+      "reference": "... TODO - get this"
     }
   ]
 
