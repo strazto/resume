@@ -1,10 +1,12 @@
 {
-  "name" : "resume-builder",
+  "name": "resume-builder",
   "dependencies": {
     "-": "^0.0.1",
+    "extract-json": "^0.2.0",
     "resume-cli": "^3.0.4"
   },
-  "scripts" : {
-    "build" : "resume export ./public/index.html"
+  "scripts": {
+    "extract": "extract-json resume.json meta theme",
+    "build": "resume export ./public/index.html --theme $(extract-json resume.json meta theme)"
   }
 }
