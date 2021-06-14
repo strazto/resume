@@ -3,7 +3,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "extract-json": "^0.2.0",
-    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-eloquent": "^4.1.0",
     "resume-cli": "^3.0.4"
   },
   "scripts": {
