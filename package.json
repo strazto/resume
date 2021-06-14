@@ -6,7 +6,7 @@
     "resume-cli": "^3.0.4"
   },
   "scripts": {
-    "extract": "extract-json resume.json meta theme",
-    "build": "resume export ./public/index.html --theme $(extract-json resume.json meta theme)"
+    "get-theme": "extract-json resume.json meta theme",
+    "build": "resume export ./public/index.html"
   }
 }
