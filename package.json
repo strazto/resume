@@ -5,6 +5,6 @@
     "resume-cli": "^3.0.4"
   },
   "scripts" : {
-    "build" : "resume export index.html"
+    "build" : "resume export ./public/index.html"
   }
 }
