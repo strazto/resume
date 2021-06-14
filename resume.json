@@ -118,10 +118,10 @@
       ]
     },
     {
-      "name"    : "tooling",
+      "name"    : "Tooling",
       "level"   : "",
       "keywords": [
-        "git", "*nix environments", "ssh/remote only", "HPC", "shell scripting (lol)", "building/debugging in constrained envs"
+        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting (lol)", "Building/Debugging in Constrained Envs"
       ]
     }
   ],
