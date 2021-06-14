@@ -25,5 +25,110 @@
         "url"      : "https://github.com/matthewstrasiotto"
       }
     ]
-  }
+  },
+  "work" : [
+    {
+      "company"   : "Faculty of Medicine - USYD | NSW Health | Eora/Sydney",
+      "position"  : "Software Engineer", 
+      "startDate" : "2018-12-01",
+      "endDate"   : "2021-07-01",
+      "summary"   : "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
+      "highlights": [
+        "Design + implementation of highly scalable data pipeline, and data processing/cleaning/visualization software",
+        "Co-ordination + Liasing with analysts, engineers, clinicians and government stakeholders in the health sector.",
+        "UX focused design + implementation of clinical validation web-app for clinicians to rapidly label/validate patient records/datasets.",
+        "Focus on ergonomics, discoverability & home-row navigation to reduce friction & increase productivity in rapidly traversing datasets"
+      ]
+    },
+    {
+      "company"   : "USYD | School of Computer Science | School of Electrical Eng. | Eora/Sydney",
+      "position"  : "Academic Tutor",
+      "startDate" : "2018-08-01",
+      "endDate"   : "2021-07-01",
+      "summary"   : "Systems Programming, Algorithms & Data Structures, Intro to programming, Embedded Systems, Infomatics",
+      "highlights": [
+        "Teach software engineering fundamentals at a variety of levels & domains.",
+        "Concurrency & system programming in C within *NIX",
+        "Data Structure + Algo design, analysis, implementation",
+        "Programming fundamentals in Python - idioms, OOP, specification breakdown, testcase design",
+        "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing in embedded systems",
+        "Chart Theory / Information Design - Data Quality/Ethics"
+      ]
+    }
+  ],
+  "volunteer" : [
+    {
+      "company"   : "Westmead Children's Hospital | Darug/Western Sydney",
+      "position"  : "Contingency Worker/Researcher",
+      "startDate" : "01-01-2018",
+      "endDate"   : "01-03-2018",
+      "summary"   : "",
+      "highlights": [
+        "Design and implementation of powerful data-transformation/analysis programs and scripts using Python, R",
+        "Algorithmically distinguished occurrences of bacteraemia from false-positives in datasets with >94% accuracy.",
+        "Vital role in successful use-case demo for eMR data-warehouse migration"
+      ]
+    }
+  ],
+  "education" : [
+    {
+      "institution" : "University of Sydney",
+      "area"        : "B. Electrical Engineering | IoT Major",
+      "studyType"   : "",
+      "startDate"   : "2017-03-01",
+      "endDate"     : "",
+      "gpa"         : "HD Level for computer science UoS"
+    },
+    {
+      "institution" : "Griffith University",
+      "area"        : "B. Electronic Eng / B. Information Technology",
+      "startDate"   : "2016-03-01",
+      "endDate"     : "2016-11-01",
+      "gpa"         : "7.0 / 7.0 (HD)"
+    }
+  ],
+  "awards" : [
+    {
+      "title"  : "Engineers Australia First Year Student Award",
+      "date"   : "2017-02-14",
+      "awarder": "Dept. Vice Chancellor Debra Henly, Griffith University",
+      "summary": "'Outstanding performance in your studies' - Achieved highest aggregate grade of first year engineering cohort."
+    },
+    {
+      "title"  : "Griffith Award for Academic Excellence",
+      "date"   : "2017-02-14",
+      "awarder": "Griffith University",
+      "summary": "Maintained GPA > 6.0 across multiple semesters."
+    }
+  ],
+  "skills" : [
+    {
+      "name"    : "Web Development",
+      "level"   : "",
+      "keywords": [
+        "HTML", "CSS", "javascript", "webpack", "PHP/Symfony"
+      ]
+    },
+    {
+      "name"    : "Native Development",
+      "level"   : "",
+      "keywords": [
+        "C#", "java", "QT", "C++"
+      ]
+    },
+    {
+      "name"    : "Backend",
+      "level"   : "",
+      "keywords": [
+        "python", "C", "R"
+      ]
+    },
+    {
+      "name"    : "tooling",
+      "level"   : "",
+      "keywords": [
+        "git", "*nix environments", "ssh/remote only", "HPC", "shell scripting (lol)", "building/debugging"
+      ]
+    }
+  ]
 }
