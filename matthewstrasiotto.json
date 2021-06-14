@@ -1,0 +1,29 @@
+{
+  "basics" : {
+    "name"    : "Matthew Strasiotto",
+    "label"   : "Software Developer (he/him)",
+    "picture" : "https://avatars.githubusercontent.com/u/39424834?v=4",
+    "email"   : "matthew.strasiotto@gmail.com",
+    "phone"   : "(redacted)",
+    "website" : "https://straz.to",
+    "summary" : 
+      "I am a software developer living on aboriginal land, of the Wangal people of the Eora nation. I am passionate about Open Source, usability & ",
+    "location": {
+      "city"        : "Eora/Sydney",
+      "region"      : "NSW",
+      "countryCode" : "AU"
+    },
+    "profiles" : [
+      {
+        "network"  : "LinkedIn",
+        "username" : "matthewstrasiotto",
+        "url"      : "https://www.linkedin.com/in/matthewstrasiotto/"
+      },
+      {
+        "network"  : "GitHub",
+        "username" : "matthewstrasiotto",
+        "url"      : "https://github.com/matthewstrasiotto"
+      }
+    ]
+  }
+}
