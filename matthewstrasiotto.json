@@ -106,7 +106,7 @@
       "name"    : "Web Development",
       "level"   : "",
       "keywords": [
-        "HTML", "CSS", "javascript", "webpack", "PHP/Symfony"
+        "HTML", "CSS", "javascript", "webpack", "PHP/Symfony", "ORM"
       ]
     },
     {
