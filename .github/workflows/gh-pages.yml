@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '10'
           
       - name: Configure git
         uses: fusion-engineering/setup-git-credentials@v2
