@@ -111,24 +111,17 @@
       ]
     },
     {
-      "name"    : "Native Development",
+      "name"    : "Backend / Native Development",
       "level"   : "",
       "keywords": [
-        "C#", "java", "QT", "C++"
-      ]
-    },
-    {
-      "name"    : "Backend",
-      "level"   : "",
-      "keywords": [
-        "python", "C", "R"
+        "C#", "java", "QT", "C++", "python", "C", "R"
       ]
     },
     {
       "name"    : "tooling",
       "level"   : "",
       "keywords": [
-        "git", "*nix environments", "ssh/remote only", "HPC", "shell scripting (lol)", "building/debugging"
+        "git", "*nix environments", "ssh/remote only", "HPC", "shell scripting (lol)", "building/debugging in constrained envs"
       ]
     }
   ],
