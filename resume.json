@@ -2,7 +2,8 @@
   "meta" : {"theme" : "helloquan"},
   "basics" : {
     "name"    : "Matthew Strasiotto",
-    "label"   : "Software Developer (he/him)",
+    "label"   : "Software Developer",
+    "pronouns": ["he", "him"],
     "picture" : "https://avatars.githubusercontent.com/u/39424834?v=4",
     "email"   : "matthew.strasiotto [at] gmail [dot] com",
     "phone"   : "(redacted)",
