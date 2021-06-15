@@ -25,6 +25,11 @@
         "network"  : "GitHub",
         "username" : "matthewstrasiotto",
         "url"      : "https://github.com/matthewstrasiotto"
+      },
+      {
+        "network"  : "twitter",
+        "username" : "strazto",
+        "url"      : "https://twitter.com/strazto"
       }
     ]
   },
