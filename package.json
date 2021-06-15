@@ -4,7 +4,7 @@
     "-": "^0.0.1",
     "extract-json": "^0.2.0",
     "jsonresume-theme-eloquent": "^4.1.0",
-    "jsonresume-theme-helloquan": "git+https://github.com/matthewstrasiotto/jsonresume-theme-helloquan.git",
+    "jsonresume-theme-helloquan": "github:matthewstrasiotto/jsonresume-theme-helloquan",
     "resume-cli": "^2.2.4"
   },
   "scripts": {
