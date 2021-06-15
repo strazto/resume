@@ -41,10 +41,9 @@
       "endDate"   : "2021-07-01",
       "summary"   : "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
       "highlights": [
-        "Design + implementation of highly scalable data pipeline, and data processing/cleaning/visualization software",
-        "Co-ordination + Liasing with analysts, engineers, clinicians and government stakeholders in the health sector.",
-        "UX focused design + implementation of clinical validation web-app for clinicians to rapidly label/validate patient records/datasets.",
-        "Focus on ergonomics, discoverability & home-row navigation to reduce friction & increase productivity in rapidly traversing datasets"
+        "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
+        "Designed + Implemented implementation of clinical validation web-app for clinicians to rapidly label/validate patient records/datasets.",
+        "Focus on UX, ergonomics, discoverability & home-row navigation to reduce friction & increase productivity in rapidly labeling datasets"
       ]
     },
     {
@@ -52,14 +51,12 @@
       "position"  : "Academic Tutor",
       "startDate" : "2018-08-01",
       "endDate"   : "2021-07-01",
-      "summary"   : "Systems Programming, Algorithms & Data Structures, Intro to programming, Embedded Systems, Infomatics",
+      "summary"   : "Systems Programming, Algorithms & Data Structures, Intro to programming, Embedded Systems, Information Design",
       "highlights": [
-        "Teach software engineering fundamentals at a variety of levels & domains.",
         "Concurrency & system programming in C within *NIX",
         "Data Structure + Algo design, analysis, implementation",
-        "Programming fundamentals in Python - idioms, OOP, specification breakdown, testcase design",
-        "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing in embedded systems",
-        "Chart Theory / Information Design - Data Quality/Ethics"
+        "Fundamentals: idioms, OOP, specification breakdown, testcase design",
+        "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing"
       ]
     }
   ],
