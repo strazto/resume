@@ -132,7 +132,8 @@
       "name"    : "Tooling",
       "level"   : "",
       "keywords": [
-        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting (lol)", "Building/Debugging in Constrained Envs"
+        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting (lol)", "Building/Debugging in Constrained Envs",
+        "AWS", "AWS SES", "Docker"
       ]
     }
   ],
