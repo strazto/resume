@@ -70,9 +70,11 @@
         "Fundamentals: idioms, OOP, specification breakdown, testcase design",
         "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing"
       ]
-    },
+    }
+  ],
+  "volunteer" : [
     {
-      "company"   : "Westmead Children's Hospital",
+      "organization"   : "Westmead Children's Hospital",
       "location"  : "Darug/Western Sydney",
       "position"  : "Contingency Worker/Researcher",
       "startDate" : "2017-12-01",
@@ -84,8 +86,6 @@
         "Vital role in successful use-case demo for eMR data-warehouse migration"
       ]
     }
-  ],
-  "volunteer" : [
   ],
   "education" : [
     {
