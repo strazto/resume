@@ -34,7 +34,8 @@
   },
   "work" : [
     {
-      "company"   : "Faculty of Medicine - USYD | NSW Health | Eora/Sydney",
+      "company"   : "University of Sydney - Faculty of Medicine + NSW Health",
+      "location"  : "Eora/Sydney",
       "position"  : "Software Engineer", 
       "startDate" : "2018-12-01",
       "endDate"   : "2021-07-01",
@@ -45,7 +46,8 @@
       ]
     },
     {
-      "company"   : "USYD | School of Computer Science | School of Electrical Eng. | Eora/Sydney",
+      "company"   : "University of Sydney - School of Computer Science + Elec. Eng.",
+      "location"  : "Eora/Sydney",
       "position"  : "Academic Tutor",
       "startDate" : "2018-08-01",
       "endDate"   : "2021-07-01",
