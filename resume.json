@@ -1,5 +1,17 @@
 {
-  "meta" : {"theme" : "helloquan"},
+  "meta" : {
+    "theme" : "helloquan",
+    "removed" : {
+      "awards": [
+        {
+          "title"  : "Griffith Award for Academic Excellence",
+          "date"   : "2017-02-14",
+          "awarder": "Griffith University",
+          "summary": "Maintained GPA > 6.0 across multiple semesters."
+        }
+      ]
+    }
+  },
   "basics" : {
     "name"    : "Matthew Strasiotto",
     "label"   : "Software Developer",
@@ -99,12 +111,6 @@
       "date"   : "2017-02-14",
       "awarder": "Dept. Vice Chancellor Debra Henly, Griffith University",
       "summary": "'Outstanding performance in your studies' - Achieved highest aggregate grade of first year engineering cohort."
-    },
-    {
-      "title"  : "Griffith Award for Academic Excellence",
-      "date"   : "2017-02-14",
-      "awarder": "Griffith University",
-      "summary": "Maintained GPA > 6.0 across multiple semesters."
     }
   ],
   "skills" : [
