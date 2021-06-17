@@ -58,21 +58,22 @@
         "Fundamentals: idioms, OOP, specification breakdown, testcase design",
         "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing"
       ]
-    }
-  ],
-  "volunteer" : [
+    },
     {
-      "company"   : "Westmead Children's Hospital | Darug/Western Sydney",
+      "company"   : "Westmead Children's Hospital",
+      "location"  : "Darug/Western Sydney",
       "position"  : "Contingency Worker/Researcher",
-      "startDate" : "2018-01-01",
+      "startDate" : "2017-12-01",
       "endDate"   : "2018-03-01",
-      "summary"   : "",
+      "summary"   : "Research project for improving outcomes for children with cancer.",
       "highlights": [
-        "Design and implementation of powerful data-transformation/analysis programs and scripts using Python, R",
+        "Design + implement data-transformation/analysis programs using Python, R",
         "Algorithmically distinguished occurrences of bacteraemia from false-positives in datasets with >94% accuracy.",
         "Vital role in successful use-case demo for eMR data-warehouse migration"
       ]
     }
+  ],
+  "volunteer" : [
   ],
   "education" : [
     {
