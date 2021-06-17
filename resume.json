@@ -41,8 +41,7 @@
       "summary"   : "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
       "highlights": [
         "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
-        "Designed + Implemented implementation of clinical validation web-app for clinicians to rapidly label/validate patient records/datasets.",
-        "Focus on UX, ergonomics, discoverability & home-row navigation to reduce friction & increase productivity in rapidly labeling datasets"
+        "Designed + Built web-app for rapid labeling of datasets. Focus on UX, ergonomics, discoverability & rapid keyboard navigation."
       ]
     },
     {
