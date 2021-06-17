@@ -78,15 +78,16 @@
   "education" : [
     {
       "institution" : "University of Sydney",
-      "area"        : "B. Electrical Engineering | IoT Major",
-      "studyType"   : "",
+      "area"        : "Electrical Engineering - IoT Major",
+      "studyType"   : "Bachelor",
       "startDate"   : "2017-03-01",
       "endDate"     : "2021-07-01",
       "gpa"         : "HD Level for computer science UoS"
     },
     {
       "institution" : "Griffith University",
-      "area"        : "B. Electronic Eng / B. Information Technology",
+      "area"        : "Electronic Eng / Information Technology",
+      "studyType"   : "Dual Bachelors",
       "startDate"   : "2016-03-01",
       "endDate"     : "2016-11-01",
       "gpa"         : "7.0 / 7.0 (HD)"
