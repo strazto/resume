@@ -89,7 +89,7 @@
   ],
   "projects"  : [
     {
-      "name"    : "mandrake",
+      "name"    : "matthewstrasiotto/mandrake",
       "summary" : "Connects package documentation with data pipeline output",
       "url"     : "https://straz.to/mandrake/",
       "roles"   : ["author"],
