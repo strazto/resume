@@ -63,12 +63,12 @@
       "position"  : "Academic Tutor",
       "startDate" : "2018-08-01",
       "endDate"   : "2021-07-01",
-      "summary"   : "Systems Programming, Algorithms & Data Structures, Intro to programming, Embedded Systems, Information Design",
+      "summary"   : "",
       "highlights": [
-        "Concurrency & system programming in C within *NIX",
-        "Data Structure + Algo design, analysis, implementation",
-        "Fundamentals: idioms, OOP, specification breakdown, testcase design",
-        "Embedded Systems in C++ - Registry manipulation of ARM microprocessor, assembly, signal processing"
+        "[COMP2017](https://www.sydney.edu.au/units/COMP2017): Systems Programming, in C within *NIX, concurrency, data structures, memory safety.",
+        "[COMP2123](https://www.sydney.edu.au/units/COMP2123): Data Structure + Algos.",
+        "[INFO1110](https://www.sydney.edu.au/units/INFO1110): Intro to programming, OOP, specification breakdown, testcase design",
+        "[ELEC3607](https://www.sydney.edu.au/units/ELEC3607): Embedded Systems in C++ - Registry manipulation of ARM Cortex M3, ASM, debugging embedded"
       ]
     }
   ],
