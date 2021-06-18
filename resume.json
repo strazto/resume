@@ -87,6 +87,15 @@
       ]
     }
   ],
+  "projects"  : [
+    {
+      "name"    : "mandrake",
+      "summary" : "Connects package documentation with data pipeline output",
+      "url"     : "https://straz.to/mandrake/",
+      "roles"   : ["author"],
+      "keywords": ["R", "datascience", "data engineering"]
+    }
+  ],
   "education" : [
     {
       "institution" : "University of Sydney",
