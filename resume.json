@@ -89,11 +89,14 @@
   ],
   "projects"  : [
     {
-      "name"    : "matthewstrasiotto/mandrake",
-      "summary" : "Connects package documentation with data pipeline output",
-      "url"     : "https://straz.to/mandrake/",
-      "roles"   : ["author"],
-      "keywords": ["R", "datascience", "data engineering"]
+      "name"      : "matthewstrasiotto/mandrake",
+      "summary"   : "`R` package that connects `code` `</>` docs to `data` docs 📈",
+      "highlights": [
+        "Extends standard docstring tools to accomodate structured documentation of output columns"
+      ],
+      "url"       : "https://straz.to/mandrake/",
+      "roles"     : ["author"],
+      "keywords"  : ["R", "reproducibility", "UX", "makefile", "pipelining"]
     }
   ],
   "education" : [
