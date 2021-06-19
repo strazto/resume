@@ -4,16 +4,7 @@
     "skip" : {
       "languages" : true
     },
-    "removed" : {
-      "awards": [
-        {
-          "title"  : "Griffith Award for Academic Excellence",
-          "date"   : "2017-02-14",
-          "awarder": "Griffith University",
-          "summary": "Maintained GPA > 6.0 across multiple semesters."
-        }
-      ]
-    }
+    "removed" : {}
   },
   "basics" : {
     "name"    : "Matthew Strasiotto",
@@ -128,6 +119,13 @@
       "date"   : "2017-02-14",
       "awarder": "Griffith University",
       "summary": "'Outstanding performance in your studies' - Achieved **highest aggregate grade** of first year engineering cohort."
+    },
+    {
+      "title"  : "Griffith Award for Academic Excellence",
+      "date"   : "2017-02-14",
+      "awarder": "Griffith University",
+      "summary": "Maintained GPA > 6.0 across multiple semesters.",
+      "hide"   : true
     }
   ],
   "skills" : [
