@@ -1,6 +1,9 @@
 {
   "meta" : {
     "theme" : "helloquan",
+    "skip" : {
+      "languages" : true
+    },
     "removed" : {
       "awards": [
         {
