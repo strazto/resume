@@ -53,7 +53,7 @@
     },
     {
       "company"   : "University of Sydney - School of Computer Science + Elec. Eng.",
-      "location"  : "Eora/Sydney",
+      "location"  : "Eora/Sydney, NSW",
       "position"  : "Academic Tutor",
       "startDate" : "2018-08-01",
       "endDate"   : "2021-07-01",
@@ -68,8 +68,8 @@
   ],
   "volunteer" : [
     {
-      "organization"   : "Westmead Children's Hospital",
-      "location"  : "Darug/Western Sydney",
+      "organization" : "Westmead Children's Hospital",
+      "location"  : "Darug/Westmead",
       "position"  : "Contingency Worker/Researcher",
       "startDate" : "2017-12-01",
       "endDate"   : "2018-03-01",
@@ -101,7 +101,7 @@
       "studyType"   : "Bachelor",
       "startDate"   : "2017-03-01",
       "endDate"     : "2021-07-01",
-      "gpa"         : "HD Level for computer science UoS"
+      "gpa"         : "HD for CompSci units"
     },
     {
       "institution" : "Griffith University",
