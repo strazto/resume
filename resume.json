@@ -132,25 +132,25 @@
   ],
   "skills" : [
     {
-      "name"    : "Web Development",
+      "name"    : "Webdev",
       "level"   : "",
       "keywords": [
         "HTML", "CSS", "javascript", "webpack", "PHP/Symfony", "ORM"
       ]
     },
     {
-      "name"    : "Backend / Native Development",
+      "name"    : "Backend / Native",
       "level"   : "",
       "keywords": [
-        "C#", "java", "QT", "C++", "python", "C", "R"
+        "C#", ".NET", "java", "QT", "C++", "python", "C", "R", "python"
       ]
     },
     {
       "name"    : "Tooling",
       "level"   : "",
       "keywords": [
-        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting (lol)", 
-        "AWS", "AWS SES", "Docker", "Building/Debugging in Constrained Envs"
+        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting", 
+        "AWS", "AWS SES", "Docker", "vagrant", "CI", "Building/Debugging in Constrained Envs"
       ]
     }
   ],
