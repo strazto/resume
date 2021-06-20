@@ -2,7 +2,8 @@
   "meta" : {
     "theme" : "helloquan",
     "skip" : {
-      "languages" : true
+      "languages" : true,
+      "volunteer" : true
     },
     "removed" : {}
   },
