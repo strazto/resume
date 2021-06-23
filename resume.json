@@ -3,6 +3,7 @@
     "theme" : "helloquan",
     "skip" : {
       "languages" : true,
+      "interests" : true,
       "volunteer" : true,
       "references": true
     },
@@ -87,11 +88,13 @@
       "name"      : "matthewstrasiotto/mandrake",
       "summary"   : "`R` package that connects `code` `</>` docs to `data` docs 📈",
       "highlights": [
-        "Extends standard docstring tools to accomodate structured documentation of output columns"
+        "Extends standard docstring tools to accomodate structured documentation of fields of input & output data",
+        "Structured data doc can be serialized, & used in enriching directional acyclic graphs (DAGs) of pipeline",
+        "Information about a given target (eg, command used to generate target, links to functions used, description of each of a dataframe's fields)  in a pipeline can be discovered by clicking on that target in the network graph."
       ],
       "url"       : "https://straz.to/mandrake/",
       "roles"     : ["author"],
-      "keywords"  : ["R", "reproducibility", "UX", "makefile", "pipelining"]
+      "keywords"  : ["R", "reproducibility", "UX", "makefile", "pipelining", "disocverability", "infrastructure"]
     }
   ],
   "education" : [
