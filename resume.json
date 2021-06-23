@@ -86,15 +86,25 @@
   "projects"  : [
     {
       "name"      : "matthewstrasiotto/mandrake",
-      "summary"   : "`R` package that connects `code` `</>` docs to `data` docs 📈",
+      "summary"   : "`R` package that connects `code` `</>` docs to `data` docs 📈 [demo](https://straz.to/mandrake/articles/mandrake.html#graph)",
       "highlights": [
         "Extends standard docstring tools to accomodate structured documentation of fields of input & output data",
-        "Structured data doc can be serialized, & used in enriching directional acyclic graphs (DAGs) of pipeline- [demonstration](https://straz.to/mandrake/articles/mandrake.html#graph)",
-        "Information about a given target (eg, command used to generate target, links to functions used, description of each of a dataframe's fields)  in a pipeline can be discovered by clicking on that target in the network graph."
+        "Structured data doc can be serialized, & used in enriching directional acyclic graphs (DAGs) of pipeline",
+        "Information about a given target (eg, command used to generate, links to functions used, documentation on target properties) in a pipeline can be discovered by clicking on that target in the network graph."
       ],
       "url"       : "https://straz.to/mandrake/",
       "roles"     : ["author"],
-      "keywords"  : ["R", "reproducibility", "UX", "makefile", "pipelining", "disocverability", "infrastructure"]
+      "keywords"  : ["R", "js", "reproducibility", "UX", "makefile", "pipelining", "disocverability", "infrastructure"]
+    },
+    {
+      "name"      : "cronnit.us",
+      "summary"   : "Significant contributions to open source web-app for scheduling reddit posts",
+      "url"       : "https://github.com/krisives/cronnit.us",
+      "highlights": [
+        "Implement views for grouping posts according to content, as well as rapid templating workflows",
+        "Work across full Symfony + Redbeans (ORM) + SQL stack to enrich UX"
+      ],
+      "keywords"  : ["html", "js", "ORM", "Model View Controller", "Model View Template", "frontend", "responsive design"]
     }
   ],
   "education" : [
