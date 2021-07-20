@@ -9,6 +9,7 @@
   },
   "scripts": {
     "get-theme": "./get-theme.js",
-    "build": "resume export ./public/index.html"
+    "build": "resume export ./public/index.html",
+    "build:pdf" : "/bin/sh -c 'resume export out.pdf --theme $(pwd)/node_modules/jsonresume-theme-$(./get-theme.js)'"
   }
 }
