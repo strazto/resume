@@ -51,7 +51,8 @@
       "highlights": [
         "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
         "Designed + Built web-app for rapid labeling of datasets. Focus on UX, ergonomics, discoverability & rapid keyboard navigation."
-      ]
+      ],
+      "keywords"  : ["R", "pipelining",  "reproducibility", "tidy", "reproducibility", "HPC"]
     },
     {
       "company"   : "University of Sydney - School of Computer Science + Elec. Eng.",
