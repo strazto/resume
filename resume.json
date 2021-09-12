@@ -140,6 +140,13 @@
   ],
   "skills" : [
     {
+    "name"    : "python",
+      "level"   : "python",
+      "keywords": [
+        "python", "python", "python", "python", "python2", "python3", "python4?"
+      ]
+    },
+    {
       "name"    : "Webdev",
       "level"   : "",
       "keywords": [
