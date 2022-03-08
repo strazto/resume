@@ -50,11 +50,21 @@
       "keywords"  : ["R", "pipelining",  "reproducibility", "tidy", "reproducibility", "HPC"]
     },
     {
+      "company"   : "University of NSW - Business School",
+      "location"  : "Eora/Sydney, NSW",
+      "position"  : "Academic Tutor",
+      "startDate" : "2021-08-01",
+      "summary"   : "",
+      "highlights": [
+        "[COMM1190](https://www.business.unsw.edu.au/degrees-courses/course-outlines/COMM1190): Data, Insights and Decisions"
+      ]
+     },
+    {
       "company"   : "University of Sydney - School of Computer Science + Elec. Eng.",
       "location"  : "Eora/Sydney, NSW",
       "position"  : "Academic Tutor",
       "startDate" : "2018-08-01",
-      "endDate"   : "2021-07-01",
+      "endDate"   : "2021-12-01",
       "summary"   : "",
       "highlights": [
         "[COMP2017](https://www.sydney.edu.au/units/COMP2017): Systems Programming, in C within *NIX, concurrency, data structures, memory safety.",
