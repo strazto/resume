@@ -103,14 +103,29 @@
       "keywords"  : ["R", "js", "reproducibility", "UX", "makefile", "pipelining", "disocverability", "infrastructure"]
     },
     {
-      "name"      : "cronnit.us",
-      "summary"   : "Significant contributions to open source web-app for scheduling reddit posts",
-      "url"       : "https://github.com/krisives/cronnit.us",
+      "name"      : "cronnit.com",
+      "summary"   : "Significant contributions to open source web-app for scheduling reddit posts (Now closed source)",
+      "url"       : "https://cronnit.com",
       "highlights": [
         "Implement views for grouping posts according to content, as well as rapid templating workflows",
-        "Work across full Symfony + Redbeans (ORM) + SQL stack to enrich UX"
+        "Work across full Symfony + Redbeans (ORM) + SQL stack to enrich UX",
+        "[Link to my fork](https://github.com/matthewstrasiotto/cronnit.us)"
       ],
       "keywords"  : ["html", "js", "ORM", "Model View Controller", "Model View Template", "frontend", "responsive design"]
+    },
+    {
+      "name"      : "Various FOSS Contributions",
+      "summary"   : "Misc contributions to various open source projects",
+      "url"       : "",
+      "highlights": [
+        "Go: [tty-share](https://github.com/elisescu/tty-share/commits?author=matthewstrasiotto), [tty-proxy](https://github.com/elisescu/tty-proxy)",
+        "rust: [lldap - lightweight, opinionated LDAP](https://github.com/nitnelave/lldap)",
+        "C# / Dotnet: [rawaccel - kernel mode mouse accel](https://github.com/a1xd/rawaccel), [Helios Display Management](https://github.com/falahati/HeliosDisplayManagement), [maintainership of videoduplicatefinder](https://github.com/matthewstrasiotto/videoduplicatefinder) ![GitHub Repo stars](https://img.shields.io/github/stars/matthewstrasiotto/videoduplicatefinder?style=social), [jellyfin-plugin-sso - OAuth for jellyfin media server](https://github.com/9p4/jellyfin-plugin-sso), ",
+        "R Packages: [rmarkdown](https://github.com/rstudio/rmarkdown), [htmltools](https://github.com/rstudio/htmltools), [pkgdown](https://github.com/r-lib/pkgdown), [downlit](https://github.com/r-lib/downlit), [xaringan - Rmarkdown presentation tool](https://github.com/yihui/xaringan), [clustermq - HPC Array Scheduler](https://github.com/mschubert/clustermq), [renv - project env management](https://github.com/rstudio/renv), [drake - pipelining toolkit](https://github.com/ropensci/drake), [rvisidata](https://github.com/paulklemm/rvisidata)",
+        "js / frontend: [yotamberk/timeline-plus](https://github.com/yotamberk/timeline-plus), [vis-timeline](https://github.com/visjs/vis-timeline)", 
+        "Super random: [vim-tmux-navigator - tmux plugin that integrates vim pane-switching](https://github.com/christoomey/vim-tmux-navigator), [SpaceVim - Community Vim Distribution](https://github.com/SpaceVim/SpaceVim), [myhr_helper - UX userscript for USYD timesheet submission](https://github.com/matthewstrasiotto/myhr_helper)"
+      ],
+      "keywords"  : ["go", "rust", "dotnet", "html", "R", "js", "html"]
     }
   ],
   "education" : [
