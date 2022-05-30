@@ -4,12 +4,13 @@
     "-": "^0.0.1",
     "extract-json": "^0.2.0",
     "jsonresume-theme-eloquent": "^4.1.0",
-    "jsonresume-theme-helloquan": "github:matthewstrasiotto/jsonresume-theme-helloquan",
+    "jsonresume-theme-helloquan": "git+ssh://git@github.com/matthewstrasiotto/jsonresume-theme-helloquan.git#master",
+    "puppeteer": "^14.1.1",
     "resume-cli": "^2.2.4"
   },
   "scripts": {
     "get-theme": "./get-theme.js",
     "build": "resume export ./public/index.html",
-    "build:pdf" : "/bin/sh -c 'resume export resume.pdf --theme $(pwd)/node_modules/jsonresume-theme-$(./get-theme.js)'"
+    "build:pdf": "/bin/sh -c 'resume export resume.pdf --theme $(pwd)/node_modules/jsonresume-theme-$(./get-theme.js)'"
   }
 }
