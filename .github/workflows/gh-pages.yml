@@ -45,7 +45,7 @@ jobs:
           webPageURL: https://straz.to/resume/
           outputFile: ./resume.pdf
           usePuppeteer: false
-          useScreen: false
+          useScreen: true
           pdfOptions: '{"format": "A4", "margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}}'         
       - name: Publish
         uses: softprops/action-gh-release@v1
