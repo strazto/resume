@@ -33,14 +33,20 @@ jobs:
         run: |
           echo "SITE_THEME=$(./get-theme.js)" >> $GITHUB_ENV
       - run: npm run build -- --theme ${{ env.SITE_THEME }}
-      - run: npm run build:pdf
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
+      - name: Build pdf
+        uses: misaelnieto/web_to_pdf_action@master
+        with:
+          webPageURL: https://straz.to/resume/
+          outputFile: ./resume.pdf
+          usePuppeteer: false
+          useScreen: false
+          pdfOptions: '{"format": "A4", "margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}}'         
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
