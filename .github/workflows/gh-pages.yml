@@ -44,11 +44,10 @@ jobs:
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-            tag_name: nightly
-            files: out.pdf
+            tag_name: daily
+            files: resume.pdf
             body: |
-              Daily build of pdf, regenned every commit
-              Last build based on ${{ steps.vars.outputs.sha_short }}
+              Daily build of pdf, regenerated every commit.
             github_token: ${{ secrets.GITHUB_TOKEN }}
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
