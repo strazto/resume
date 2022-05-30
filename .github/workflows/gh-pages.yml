@@ -33,6 +33,7 @@ jobs:
         run: |
           echo "SITE_THEME=$(./get-theme.js)" >> $GITHUB_ENV
       - run: npm run build -- --theme ${{ env.SITE_THEME }}
+      - run: npm run build:pdf
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -40,3 +41,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
+      - name: Publish
+        uses: softprops/action-gh-release@v1
+        with:
+            tag_name: nightly
+            files: out.pdf
+            body: |
+              Daily build of pdf, regenned every commit
+              Last build based on ${{ steps.vars.outputs.sha_short }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
