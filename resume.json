@@ -37,6 +37,20 @@
   },
   "work" : [
     {
+      "company"   : "Logilica",
+      "location"  : "Eora/Sydney, NSW",
+      "position"  : "Software Engineer", 
+      "startDate" : "2022-12-01",
+      "summary"   : "Full stack engineer on Engineering Intelligence Platform",
+      "url"       : "https://logilica.com",
+      "highlights": [
+        "Full-Stack engineer on React/Typescript/NoSQL microservice based stack",
+        "Developed static analysis rules for leading AppSec company to detect & mitigate code-based security vulnerabilities",
+        "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal"
+      ],
+      "keywords"  : ["typescript", "react", "graphql", "nosql", "kubernetes", "AWS", "AppSec", "Application Security", "static analysis", "SAST", "CI/CD"]
+    },
+    {
       "company"   : "University of Sydney - Faculty of Medicine + NSW Health",
       "location"  : "Eora/Sydney, NSW",
       "position"  : "Software Engineer", 
@@ -54,6 +68,7 @@
       "location"  : "Eora/Sydney, NSW",
       "position"  : "Academic Tutor",
       "startDate" : "2021-08-01",
+      "endDate"   : "2022-05-01",
       "summary"   : "",
       "highlights": [
         "[COMM1190](https://www.business.unsw.edu.au/degrees-courses/course-outlines/COMM1190): Data, Insights and Decisions"
