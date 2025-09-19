@@ -19,7 +19,7 @@
     "picture": "https://avatars.githubusercontent.com/u/39424834?v=4",
     "email": "matthew.strasiotto [at] gmail [dot] com",
     "website": "https://straz.to",
-    "summary": "Full‑stack engineer (TypeScript/React/GraphQL) with security depth. Ships customer‑facing, self‑serve APIs with OpenAPI, embedded docs, and CI doc‑gen. Owned SAST rules across multiple languages and built executive coverage reporting. Comfortable with end‑to‑end ownership, fast iteration, and measurable impact.",
+    "summary": "Full‑stack engineer (TypeScript/React/GraphQL/Apollo) with security depth. Builds self‑serve APIs (OpenAPI, embedded docs, CI doc‑gen) and closes the loop with customers.  Owned SAST rules across multiple languages and embedded executive coverage reporting into code. SAST languages (Go, Java, Python, Swift; owned MVPs for Groovy, Rust, Obj‑C, Dart).",
     "location": {
       "city": "Eora/Sydney",
       "region": "NSW",
@@ -44,47 +44,61 @@
       "location": "Eora/Sydney, NSW",
       "position": "Software Engineer",
       "startDate": "2022-06-01",
-      "summary": "Full‑stack engineer on Engineering Intelligence Platform; customer‑driven delivery with strong focus on contracts, docs, and reliability.",
+      "summary": "Full‑stack engineer on engineering intelligence platform; product delivery with typed contracts, Apollo GraphQL, and customer‑visible docs.",
       "url": "https://logilica.com",
       "highlights": [
-        "Designed and shipped a self‑serve data/API platform: OpenAPI spec, secure endpoints, embedded API docs, and CI doc‑gen for Cube.js data models.",
-        "Owned delivery of static analysis (SAST) rules across Groovy, Rust, Objective‑C, and Dart; improved signal by tuning taint/data‑flow models.",
-        "Built internal framework‑coverage reporting used by Eng Director/VP levels (e.g., ‘N frameworks across X languages’) to guide roadmap.",
-        "Authored embedded ‘why this triggers / safe pattern’ rule docs to speed CX cycles and improve bake‑offs/evaluations.",
-        "Integrated docs-as-code into the customer portal; versioned releases auto‑publish from CI so code and docs never drift.",
-        "Reduced ‘pull this data’ support requests by ~20–50% and cut time‑to‑first‑success from days → minutes for design‑partner accounts.",
-        "Closed the loop with customers: grouped ticket themes, shipped iterative improvements, and instrumented activation/TTFS to confirm impact.",
         "Full-Stack engineer on React/Typescript/NoSQL microservice based stack",
+        "Shipped self‑serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
+        "Implemented CI doc‑gen for Cube.js data models; docs‑as‑code keeps docs aligned with code.",
+        "Built React + Apollo GraphQL features; strengthened typed UI→Graph contracts.",
+        "Closed the loop with customers to prioritise onboarding and activation improvements.",
         "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal"
       ],
       "keywords": [
         "AWS",
-        "AppSec",
-        "Application Security",
+        "Apollo GraphQL",
         "CI/CD",
         "Cube.js",
-        "Customer‑driven engineering",
-        "Dart",
-        "Doc‑gen",
-        "GraphQL",
-        "Groovy",
-        "Kubernetes",
-        "NoSQL",
-        "Objective‑C",
-        "Observability",
+        "Docs‑as‑code",
         "OpenAPI",
-        "React",
-        "Rust",
         "SAST",
-        "Security",
-        "Taint analysis",
-        "TypeScript",
         "graphql",
         "kubernetes",
         "nosql",
         "react",
-        "static analysis",
         "typescript"
+      ]
+    },
+    {
+      "name": "Security Engineer (SAST) — Contractor",
+      "position": "Security Engineer (SAST), Contractor",
+      "company": "Confidential Global AppSec Vendor (via Logilica)",
+      "startDate": "2022-06-01",
+      "summary": "Static analysis rule delivery and developer enablement across multiple languages and frameworks.",
+      "highlights": [
+        "Owned and shipped language delivery MVPs for Groovy, Rust, Objective‑C, and Dart.",
+        "Contributed across broader ecosystems: Java, Go, Python, Swift (rules, tests, triage).",
+        "Built internal framework‑coverage reporting used by Eng leadership for roadmap clarity.",
+        "Authored embedded rule docs explaining ‘why this triggers’ and safe patterns to reduce CX loops.",
+        "Improved taint/data‑flow models and triage conventions to raise signal‑to‑noise.",
+        "Handled customer tickets (including renewal-sensitive issues) and owned outcomes end-to-end with CX/Support."
+      ],
+      "keywords": [
+        "AppSec",
+        "Application Security",
+        "Dart",
+        "Developer education",
+        "Go",
+        "Groovy",
+        "Java",
+        "Objective‑C",
+        "Python",
+        "Rust",
+        "SAST",
+        "Security",
+        "Static analysis",
+        "Swift",
+        "Taint analysis"
       ]
     },
     {
@@ -95,21 +109,16 @@
       "endDate": "2021-07-01",
       "summary": "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
       "highlights": [
-        "Built a scalable EMR data pipeline and contributed features to FOSS pipeline tooling for monitoring, provenance and reproducibility.",
-        "Delivered a keyboard‑driven web app for rapid dataset labelling; improved throughput and reduced error rates via UX and discoverability tweaks."
+        "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
+        "Designed + Built web-app for rapid labeling of datasets. Focus on UX, ergonomics, discoverability & rapid keyboard navigation."
       ],
       "keywords": [
-        "Data pipelines",
-        "EMR",
-        "HPC",
-        "Provenance",
         "R",
-        "Reproducibility",
-        "Throughput",
-        "UX",
         "pipelining",
         "reproducibility",
-        "tidy"
+        "tidy",
+        "reproducibility",
+        "HPC"
       ]
     },
     {
