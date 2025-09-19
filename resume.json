@@ -1,86 +1,108 @@
 {
-  "meta" : {
-    "theme" : "helloquan",
-    "skip" : {
-      "languages" : true,
-      "interests" : true,
-      "volunteer" : true,
+  "meta": {
+    "theme": "helloquan",
+    "skip": {
+      "languages": true,
+      "interests": true,
+      "volunteer": true,
       "references": true
     },
-    "removed" : {}
+    "removed": {}
   },
-  "basics" : {
-    "name"    : "Matthew Strasiotto",
-    "label"   : "Software Developer",
-    "pronouns": ["he", "him"],
-    "picture" : "https://avatars.githubusercontent.com/u/39424834?v=4",
-    "email"   : "matthew.strasiotto [at] gmail [dot] com",
-    "website" : "https://straz.to",
-    "summary" : "",
+  "basics": {
+    "name": "Matthew Strasiotto",
+    "label": "Software Developer",
+    "pronouns": [
+      "he",
+      "him"
+    ],
+    "picture": "https://avatars.githubusercontent.com/u/39424834?v=4",
+    "email": "matthew.strasiotto [at] gmail [dot] com",
+    "website": "https://straz.to",
+    "summary": "",
     "location": {
-      "city"        : "Eora/Sydney",
-      "region"      : "NSW",
-      "countryCode" : "AU"
+      "city": "Eora/Sydney",
+      "region": "NSW",
+      "countryCode": "AU"
     },
     "profiles": [
       {
-        "network"  : "LinkedIn",
-        "username" : "matthewstrasiotto",
-        "url"      : "https://www.linkedin.com/in/matthewstrasiotto/"
+        "network": "LinkedIn",
+        "username": "matthewstrasiotto",
+        "url": "https://www.linkedin.com/in/matthewstrasiotto/"
       },
       {
-        "network"  : "GitHub",
-        "username" : "strazto",
-        "url"      : "https://github.com/strazto"
+        "network": "GitHub",
+        "username": "strazto",
+        "url": "https://github.com/strazto"
       }
     ]
   },
-  "work" : [
+  "work": [
     {
-      "company"   : "Logilica",
-      "location"  : "Eora/Sydney, NSW",
-      "position"  : "Software Engineer", 
-      "startDate" : "2022-06-01",
-      "summary"   : "Full stack engineer on Engineering Intelligence Platform",
-      "url"       : "https://logilica.com",
+      "company": "Logilica",
+      "location": "Eora/Sydney, NSW",
+      "position": "Software Engineer",
+      "startDate": "2022-06-01",
+      "summary": "Full stack engineer on Engineering Intelligence Platform",
+      "url": "https://logilica.com",
       "highlights": [
         "Full-Stack engineer on React/Typescript/NoSQL microservice based stack",
         "Developed static analysis rules for leading AppSec company to detect & mitigate code-based security vulnerabilities",
         "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal"
       ],
-      "keywords"  : ["typescript", "react", "graphql", "nosql", "kubernetes", "AWS", "AppSec", "Application Security", "static analysis", "SAST", "CI/CD"]
+      "keywords": [
+        "typescript",
+        "react",
+        "graphql",
+        "nosql",
+        "kubernetes",
+        "AWS",
+        "AppSec",
+        "Application Security",
+        "static analysis",
+        "SAST",
+        "CI/CD"
+      ]
     },
     {
-      "company"   : "University of Sydney - Faculty of Medicine + NSW Health",
-      "location"  : "Eora/Sydney, NSW",
-      "position"  : "Software Engineer", 
-      "startDate" : "2018-12-01",
-      "endDate"   : "2021-07-01",
-      "summary"   : "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
+      "company": "University of Sydney - Faculty of Medicine + NSW Health",
+      "location": "Eora/Sydney, NSW",
+      "position": "Software Engineer",
+      "startDate": "2018-12-01",
+      "endDate": "2021-07-01",
+      "summary": "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
       "highlights": [
         "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
         "Designed + Built web-app for rapid labeling of datasets. Focus on UX, ergonomics, discoverability & rapid keyboard navigation."
       ],
-      "keywords"  : ["R", "pipelining",  "reproducibility", "tidy", "reproducibility", "HPC"]
+      "keywords": [
+        "R",
+        "pipelining",
+        "reproducibility",
+        "tidy",
+        "reproducibility",
+        "HPC"
+      ]
     },
     {
-      "company"   : "University of NSW - Business School",
-      "location"  : "Eora/Sydney, NSW",
-      "position"  : "Academic Tutor",
-      "startDate" : "2021-08-01",
-      "endDate"   : "2022-05-01",
-      "summary"   : "",
+      "company": "University of NSW - Business School",
+      "location": "Eora/Sydney, NSW",
+      "position": "Academic Tutor",
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01",
+      "summary": "",
       "highlights": [
         "[COMM1190](https://www.business.unsw.edu.au/degrees-courses/course-outlines/COMM1190): Data, Insights and Decisions"
       ]
-     },
+    },
     {
-      "company"   : "University of Sydney - School of Computer Science + Elec. Eng.",
-      "location"  : "Eora/Sydney, NSW",
-      "position"  : "Academic Tutor",
-      "startDate" : "2018-08-01",
-      "endDate"   : "2021-12-01",
-      "summary"   : "",
+      "company": "University of Sydney - School of Computer Science + Elec. Eng.",
+      "location": "Eora/Sydney, NSW",
+      "position": "Academic Tutor",
+      "startDate": "2018-08-01",
+      "endDate": "2021-12-01",
+      "summary": "",
       "highlights": [
         "[COMP2017](https://www.sydney.edu.au/units/COMP2017): Systems Programming, in C within *NIX, concurrency, data structures, memory safety.",
         "[COMP2123](https://www.sydney.edu.au/units/COMP2123): Data Structure + Algos.",
@@ -89,14 +111,14 @@
       ]
     }
   ],
-  "volunteer" : [
+  "volunteer": [
     {
-      "organization" : "Westmead Children's Hospital",
-      "location"  : "Darug/Westmead",
-      "position"  : "Contingency Worker/Researcher",
-      "startDate" : "2017-12-01",
-      "endDate"   : "2018-03-01",
-      "summary"   : "Research project for improving outcomes for children with cancer.",
+      "organization": "Westmead Children's Hospital",
+      "location": "Darug/Westmead",
+      "position": "Contingency Worker/Researcher",
+      "startDate": "2017-12-01",
+      "endDate": "2018-03-01",
+      "summary": "Research project for improving outcomes for children with cancer.",
       "highlights": [
         "Design + implement data-transformation/analysis programs using Python, R",
         "Algorithmically distinguished occurrences of bacteraemia from false-positives in datasets with >94% accuracy.",
@@ -104,101 +126,150 @@
       ]
     }
   ],
-  "projects"  : [
+  "projects": [
     {
-      "name"      : "matthewstrasiotto/mandrake",
-      "summary"   : "`R` package that connects `code` `</>` docs to `data` docs 📈 [demo](https://straz.to/mandrake/articles/mandrake.html#graph)",
+      "name": "matthewstrasiotto/mandrake",
+      "summary": "`R` package that connects `code` `</>` docs to `data` docs 📈 [demo](https://straz.to/mandrake/articles/mandrake.html#graph)",
       "highlights": [
         "Extends standard docstring tools to accomodate structured documentation of fields of input & output data",
         "Structured data doc can be serialized, & used in enriching directional acyclic graphs (DAGs) of pipeline",
         "Information about a given target (eg, command used to generate, links to functions used, documentation on target properties) in a pipeline can be discovered by clicking on that target in the network graph."
       ],
-      "url"       : "https://straz.to/mandrake/",
-      "roles"     : ["author"],
-      "keywords"  : ["R", "js", "reproducibility", "UX", "makefile", "pipelining", "disocverability", "infrastructure"]
+      "url": "https://straz.to/mandrake/",
+      "roles": [
+        "author"
+      ],
+      "keywords": [
+        "R",
+        "js",
+        "reproducibility",
+        "UX",
+        "makefile",
+        "pipelining",
+        "disocverability",
+        "infrastructure"
+      ]
     },
     {
-      "name"      : "cronnit.com",
-      "summary"   : "Significant contributions to open source web-app for scheduling reddit posts (Now closed source)",
-      "url"       : "https://cronnit.com",
+      "name": "cronnit.com",
+      "summary": "Significant contributions to open source web-app for scheduling reddit posts (Now closed source)",
+      "url": "https://cronnit.com",
       "highlights": [
         "Implement views for grouping posts according to content, as well as rapid templating workflows",
         "Work across full Symfony + Redbeans (ORM) + SQL stack to enrich UX",
         "[Link to my fork](https://github.com/matthewstrasiotto/cronnit.us)"
       ],
-      "keywords"  : ["html", "js", "ORM", "Model View Controller", "Model View Template", "frontend", "responsive design"]
+      "keywords": [
+        "html",
+        "js",
+        "ORM",
+        "Model View Controller",
+        "Model View Template",
+        "frontend",
+        "responsive design"
+      ]
     },
     {
-      "name"      : "Various FOSS Contributions",
-      "summary"   : "Misc contributions to various open source projects",
-      "url"       : "",
+      "name": "Various FOSS Contributions",
+      "summary": "Misc contributions to various open source projects",
+      "url": "",
       "highlights": [
         "Go: [tty-share](https://github.com/elisescu/tty-share/commits?author=matthewstrasiotto), [tty-proxy](https://github.com/elisescu/tty-proxy)",
         "rust: [lldap - lightweight, opinionated LDAP](https://github.com/nitnelave/lldap)",
         "C# / Dotnet: [rawaccel - kernel mode mouse accel](https://github.com/a1xd/rawaccel), [Helios Display Management](https://github.com/falahati/HeliosDisplayManagement), [maintainership of videoduplicatefinder](https://github.com/matthewstrasiotto/videoduplicatefinder) ![GitHub Repo stars](https://img.shields.io/github/stars/matthewstrasiotto/videoduplicatefinder?style=social), [jellyfin-plugin-sso - OAuth for jellyfin media server](https://github.com/9p4/jellyfin-plugin-sso), ",
         "R Packages: [rmarkdown](https://github.com/rstudio/rmarkdown), [htmltools](https://github.com/rstudio/htmltools), [pkgdown](https://github.com/r-lib/pkgdown), [downlit](https://github.com/r-lib/downlit), [xaringan - Rmarkdown presentation tool](https://github.com/yihui/xaringan), [clustermq - HPC Array Scheduler](https://github.com/mschubert/clustermq), [renv - project env management](https://github.com/rstudio/renv), [drake - pipelining toolkit](https://github.com/ropensci/drake), [rvisidata](https://github.com/paulklemm/rvisidata)",
-        "js / frontend: [yotamberk/timeline-plus](https://github.com/yotamberk/timeline-plus), [vis-timeline](https://github.com/visjs/vis-timeline)", 
+        "js / frontend: [yotamberk/timeline-plus](https://github.com/yotamberk/timeline-plus), [vis-timeline](https://github.com/visjs/vis-timeline)",
         "Super random: [vim-tmux-navigator - tmux plugin that integrates vim pane-switching](https://github.com/christoomey/vim-tmux-navigator), [SpaceVim - Community Vim Distribution](https://github.com/SpaceVim/SpaceVim), [myhr_helper - UX userscript for USYD timesheet submission](https://github.com/matthewstrasiotto/myhr_helper)"
       ],
-      "keywords"  : ["go", "rust", "dotnet", "html", "R", "js", "html"]
+      "keywords": [
+        "go",
+        "rust",
+        "dotnet",
+        "html",
+        "R",
+        "js",
+        "html"
+      ]
     }
   ],
-  "education" : [
+  "education": [
     {
-      "institution" : "University of Sydney",
-      "location"    : "Eora/Sydney, NSW",
-      "area"        : "Electrical Engineering - IoT Major",
-      "studyType"   : "Bachelor",
-      "startDate"   : "2017-03-01",
-      "endDate"     : "2021-07-01",
-      "gpa"         : "HD for CompSci units"
+      "institution": "University of Sydney",
+      "location": "Eora/Sydney, NSW",
+      "area": "Electrical Engineering - IoT Major",
+      "studyType": "Bachelor",
+      "startDate": "2017-03-01",
+      "endDate": "2021-07-01",
+      "gpa": "HD for CompSci units"
     },
     {
-      "institution" : "Griffith University",
-      "location"    : "Jagera/Turrbal/Brisbane, QLD",
-      "area"        : "Electronic Eng / Information Technology",
-      "studyType"   : "Dual Bachelors",
-      "startDate"   : "2016-03-01",
-      "endDate"     : "2016-11-01",
-      "gpa"         : "7.0 / 7.0 (HD)"
+      "institution": "Griffith University",
+      "location": "Jagera/Turrbal/Brisbane, QLD",
+      "area": "Electronic Eng / Information Technology",
+      "studyType": "Dual Bachelors",
+      "startDate": "2016-03-01",
+      "endDate": "2016-11-01",
+      "gpa": "7.0 / 7.0 (HD)"
     }
   ],
-  "awards" : [
+  "awards": [
     {
-      "title"  : "Engineers Australia First Year Student Award",
-      "date"   : "2017-02-14",
+      "title": "Engineers Australia First Year Student Award",
+      "date": "2017-02-14",
       "awarder": "Griffith University",
       "summary": "'Outstanding performance in your studies' - Achieved **highest aggregate grade** of first year engineering cohort."
     },
     {
-      "title"  : "Griffith Award for Academic Excellence",
-      "date"   : "2017-02-14",
+      "title": "Griffith Award for Academic Excellence",
+      "date": "2017-02-14",
       "awarder": "Griffith University",
       "summary": "Maintained GPA > 6.0 across multiple semesters.",
-      "hide"   : true
+      "hide": true
     }
   ],
-  "skills" : [
+  "skills": [
     {
-      "name"    : "Webdev",
-      "level"   : "",
+      "name": "Webdev",
+      "level": "",
       "keywords": [
-        "HTML", "CSS", "javascript", "webpack", "bootstrap", "PHP/Symfony", "ORM"
+        "HTML",
+        "CSS",
+        "javascript",
+        "webpack",
+        "bootstrap",
+        "PHP/Symfony",
+        "ORM"
       ]
     },
     {
-      "name"    : "Backend / Native",
-      "level"   : "",
+      "name": "Backend / Native",
+      "level": "",
       "keywords": [
-         ".NET", "C#", "C", "C++", "Qt", "python",  "R", "java"
+        ".NET",
+        "C#",
+        "C",
+        "C++",
+        "Qt",
+        "python",
+        "R",
+        "java"
       ]
     },
     {
-      "name"    : "Tooling",
-      "level"   : "",
+      "name": "Tooling",
+      "level": "",
       "keywords": [
-        "git", "*nix environments", "ssh/Remote Only", "HPC", "Shell Scripting", 
-        "AWS", "AWS SES", "Docker", "vagrant", "CI", "Building/Debugging in Constrained Envs"
+        "git",
+        "*nix environments",
+        "ssh/Remote Only",
+        "HPC",
+        "Shell Scripting",
+        "AWS",
+        "AWS SES",
+        "Docker",
+        "vagrant",
+        "CI",
+        "Building/Debugging in Constrained Envs"
       ]
     }
   ],
@@ -211,22 +282,32 @@
   "interests": [
     {
       "name": "Music / Art / Misc",
-      "keywords": ["R&B", "Soul", "Dance", "Live Performance", "Volleyball"]
+      "keywords": [
+        "R&B",
+        "Soul",
+        "Dance",
+        "Live Performance",
+        "Volleyball"
+      ]
     },
     {
       "name": "Nerdy stuff",
-      "keywords": ["Dungeons & Dragons", "TTRPG", "FOSS", "Command-line UX"]
+      "keywords": [
+        "Dungeons & Dragons",
+        "TTRPG",
+        "FOSS",
+        "Command-line UX"
+      ]
     }
   ],
   "references": [
     {
-      "name"     : "Charmaine Tam",
+      "name": "Charmaine Tam",
       "reference": "...TODO - get this"
     },
     {
-      "name"     : "John Stavrakakis",
+      "name": "John Stavrakakis",
       "reference": "... TODO - get this"
     }
   ]
-
 }
