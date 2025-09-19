@@ -19,7 +19,7 @@
     "picture": "https://avatars.githubusercontent.com/u/39424834?v=4",
     "email": "matthew.strasiotto [at] gmail [dot] com",
     "website": "https://straz.to",
-    "summary": "",
+    "summary": "Full‑stack engineer (TypeScript/React/GraphQL) with security depth. Ships customer‑facing, self‑serve APIs with OpenAPI, embedded docs, and CI doc‑gen. Owned SAST rules across multiple languages and built executive coverage reporting. Comfortable with end‑to‑end ownership, fast iteration, and measurable impact.",
     "location": {
       "city": "Eora/Sydney",
       "region": "NSW",
@@ -44,25 +44,47 @@
       "location": "Eora/Sydney, NSW",
       "position": "Software Engineer",
       "startDate": "2022-06-01",
-      "summary": "Full stack engineer on Engineering Intelligence Platform",
+      "summary": "Full‑stack engineer on Engineering Intelligence Platform; customer‑driven delivery with strong focus on contracts, docs, and reliability.",
       "url": "https://logilica.com",
       "highlights": [
+        "Designed and shipped a self‑serve data/API platform: OpenAPI spec, secure endpoints, embedded API docs, and CI doc‑gen for Cube.js data models.",
+        "Owned delivery of static analysis (SAST) rules across Groovy, Rust, Objective‑C, and Dart; improved signal by tuning taint/data‑flow models.",
+        "Built internal framework‑coverage reporting used by Eng Director/VP levels (e.g., ‘N frameworks across X languages’) to guide roadmap.",
+        "Authored embedded ‘why this triggers / safe pattern’ rule docs to speed CX cycles and improve bake‑offs/evaluations.",
+        "Integrated docs-as-code into the customer portal; versioned releases auto‑publish from CI so code and docs never drift.",
+        "Reduced ‘pull this data’ support requests by ~20–50% and cut time‑to‑first‑success from days → minutes for design‑partner accounts.",
+        "Closed the loop with customers: grouped ticket themes, shipped iterative improvements, and instrumented activation/TTFS to confirm impact.",
         "Full-Stack engineer on React/Typescript/NoSQL microservice based stack",
-        "Developed static analysis rules for leading AppSec company to detect & mitigate code-based security vulnerabilities",
         "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal"
       ],
       "keywords": [
-        "typescript",
-        "react",
-        "graphql",
-        "nosql",
-        "kubernetes",
         "AWS",
         "AppSec",
         "Application Security",
-        "static analysis",
+        "CI/CD",
+        "Cube.js",
+        "Customer‑driven engineering",
+        "Dart",
+        "Doc‑gen",
+        "GraphQL",
+        "Groovy",
+        "Kubernetes",
+        "NoSQL",
+        "Objective‑C",
+        "Observability",
+        "OpenAPI",
+        "React",
+        "Rust",
         "SAST",
-        "CI/CD"
+        "Security",
+        "Taint analysis",
+        "TypeScript",
+        "graphql",
+        "kubernetes",
+        "nosql",
+        "react",
+        "static analysis",
+        "typescript"
       ]
     },
     {
@@ -73,16 +95,21 @@
       "endDate": "2021-07-01",
       "summary": "Translating high-volume, routinely collected electronic medical records into high-value research data to improve patient outcomes",
       "highlights": [
-        "Built highly scalable data pipeline + contributed to FOSS pipelining software for documenting & monitoring pipeline",
-        "Designed + Built web-app for rapid labeling of datasets. Focus on UX, ergonomics, discoverability & rapid keyboard navigation."
+        "Built a scalable EMR data pipeline and contributed features to FOSS pipeline tooling for monitoring, provenance and reproducibility.",
+        "Delivered a keyboard‑driven web app for rapid dataset labelling; improved throughput and reduced error rates via UX and discoverability tweaks."
       ],
       "keywords": [
+        "Data pipelines",
+        "EMR",
+        "HPC",
+        "Provenance",
         "R",
+        "Reproducibility",
+        "Throughput",
+        "UX",
         "pipelining",
         "reproducibility",
-        "tidy",
-        "reproducibility",
-        "HPC"
+        "tidy"
       ]
     },
     {
@@ -127,6 +154,21 @@
     }
   ],
   "projects": [
+    {
+      "name": "Key Achievements",
+      "summary": "Cross‑role, impact‑focused highlights relevant to product engineering at modern web stacks.",
+      "highlights": [
+        "Shipped self‑serve APIs with OpenAPI + embedded docs; reduced support load and accelerated customer activation.",
+        "Introduced coverage/visibility tooling that informed roadmap prioritisation and improved stakeholder confidence.",
+        "Operationalised docs‑as‑code with CI publishing to keep customer docs in lock‑step with code."
+      ],
+      "keywords": [
+        "Product impact",
+        "Activation",
+        "Docs‑as‑code",
+        "Coverage reporting"
+      ]
+    },
     {
       "name": "matthewstrasiotto/mandrake",
       "summary": "`R` package that connects `code` `</>` docs to `data` docs 📈 [demo](https://straz.to/mandrake/articles/mandrake.html#graph)",
