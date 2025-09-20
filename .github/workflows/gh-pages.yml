@@ -43,11 +43,13 @@ jobs:
         uses: misaelnieto/web_to_pdf_action@master
         with:
           webPageURL: https://straz.to/resume/
-          outputFile: ./resume.pdf
+          outputFile: ./resume-draft.pdf
           usePuppeteer: true
           useScreen: true
           # "format": "letter", 
-          pdfOptions: '{"margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}, "preferCSSPageSize": true}'
+          pdfOptions: '{"margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}}'
+      - name: Fix pdf
+        run: node fix-pdf.js resume-draft.pdf resume.pdf
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
