@@ -19,7 +19,7 @@
     "picture": "https://avatars.githubusercontent.com/u/39424834?v=4",
     "email": "matthew.strasiotto [at] gmail [dot] com",
     "website": "https://straz.to",
-    "summary": "Full‑stack engineer (TypeScript/React/GraphQL/Apollo) with security depth. Builds self‑serve APIs (OpenAPI, embedded docs, CI doc‑gen) and closes the loop with customers.  Owned SAST rules across multiple languages and embedded executive coverage reporting into code. SAST languages (Go, Java, Python, Swift; owned MVPs for Groovy, Rust, Obj‑C, Dart).",
+    "summary": "Full-stack engineer with security depth who ships customer-facing outcomes end-to-end; Polyglot, poly-stack, poly-role.",
     "location": {
       "city": "Eora/Sydney",
       "region": "NSW",
@@ -44,10 +44,10 @@
       "location": "Eora/Sydney, NSW",
       "position": "Software Engineer",
       "startDate": "2022-06-01",
-      "summary": "Full‑stack engineer on engineering intelligence platform; product delivery with typed contracts, Apollo GraphQL, and customer‑visible docs.",
+      "summary": "Full-stack engineer delivering customer-facing APIs and docs (TypeScript/React, Apollo GraphQL, OpenAPI, Cube.js).",
       "url": "https://logilica.com",
       "highlights": [
-        "Full-Stack engineer on React/Typescript/NoSQL microservice based stack",
+        "React/Typescript/NoSQL microservice based stack",
         "Shipped self‑serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
         "Implemented CI doc‑gen for Cube.js data models; docs‑as‑code keeps docs aligned with code.",
         "Built React + Apollo GraphQL features; strengthened typed UI→Graph contracts.",
@@ -72,14 +72,14 @@
     {
       "name": "Security Engineer (SAST) — Contractor",
       "position": "Security Engineer (SAST), Contractor",
-      "company": "Confidential Global AppSec Vendor (via Logilica)",
+      "company": "Global AppSec Vendor (via Logilica)",
       "startDate": "2022-06-01",
       "summary": "Static analysis rule delivery and developer enablement across multiple languages and frameworks.",
       "highlights": [
         "Owned and shipped language delivery MVPs for Groovy, Rust, Objective‑C, and Dart.",
-        "Contributed across broader ecosystems: Java, Go, Python, Swift (rules, tests, triage).",
+        "Contributed across broader ecosystems: Java, Go, Python, Swift, C++ (rules, tests, triage).",
         "Built internal framework‑coverage reporting used by Eng leadership for roadmap clarity.",
-        "Authored embedded rule docs explaining ‘why this triggers’ and safe patterns to reduce CX loops.",
+        "Authored embedded customer-facing rule docs explaining ‘why this triggers’ and safe patterns to reduce CX loops.",
         "Improved taint/data‑flow models and triage conventions to raise signal‑to‑noise.",
         "Handled customer tickets (including renewal-sensitive issues) and owned outcomes end-to-end with CX/Support."
       ],
