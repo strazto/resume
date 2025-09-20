@@ -46,7 +46,8 @@ jobs:
           outputFile: ./resume.pdf
           usePuppeteer: true
           useScreen: true
-          pdfOptions: '{"format": "letter", "margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}}'         
+          # "format": "letter", 
+          pdfOptions: '{"margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}, "preferCSSPageSize": true}'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
