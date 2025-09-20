@@ -165,7 +165,7 @@
   "projects": [
     {
       "name": "Key Achievements",
-      "summary": "Cross‑role, impact‑focused highlights relevant to product engineering at modern web stacks.",
+      "summary": "Selected product-engineering results that improved activation, API adoption, and developer docs across modern web stacks.",
       "highlights": [
         "Shipped self‑serve APIs with OpenAPI + embedded docs; reduced support load and accelerated customer activation.",
         "Introduced coverage/visibility tooling that informed roadmap prioritisation and improved stakeholder confidence.",
