@@ -179,6 +179,31 @@
       ]
     },
     {
+      "name": "Quokka Mobile App Migration (Flutter iOS & Android)",
+      "description": "Migrated an existing Android-first app into a polished cross‑platform mobile experience, focusing on a smooth onboarding flow and consistent, localized UI.",
+      "entity": "Quokka Computing",
+      "type": "application",
+      "roles": ["Mobile Engineer"],
+      "url": "https://www.quokkacomputing.com/",
+      "keywords": [
+        "Flutter",
+        "Dart",
+        "Mobile",
+        "Cross-Platform",
+        "UX",
+        "IoT",
+        "Onboarding",
+        "Localization"
+      ],
+      "highlights": [
+        "Picked up and rapidly understood an established codebase; delivered iOS support without disrupting Android users.",
+        "Designed an intuitive device onboarding journey that guides users through pairing and Wi‑Fi setup with clear, human‑centred copy.",
+        "Implemented platform‑aware UX to gracefully handle iOS constraints so users can always complete setup via simple alternatives.",
+        "Centralized and localized all user‑facing text to ensure consistency, clarity and future translation readiness.",
+        "Aligned with stakeholders on scope and success criteria; validated flows on real devices to ensure a reliable first‑run experience."
+      ]
+    },
+    {
       "name": "matthewstrasiotto/mandrake",
       "summary": "`R` package that connects `code` `</>` docs to `data` docs 📈 [demo](https://straz.to/mandrake/articles/mandrake.html#graph)",
       "highlights": [
@@ -301,6 +326,16 @@
       ]
     },
     {
+      "name": "Mobile",
+      "level": "",
+      "keywords": [
+        "Flutter",
+        "Dart",
+        "Swift",
+        "Objective‑C"
+      ]
+    },
+    {
       "name": "Backend / Native",
       "level": "",
       "keywords": [
@@ -314,9 +349,6 @@
         "java",
         "Go",
         "Rust",
-        "Swift",
-        "Objective‑C",
-        "Dart",
         "Groovy",
         "Node.js",
         "GraphQL APIs",
