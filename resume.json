@@ -11,7 +11,7 @@
   },
   "basics": {
     "name": "Matthew Strasiotto",
-    "label": "Software Developer",
+    "label": "Software Engineer",
     "pronouns": [
       "he",
       "him"
@@ -19,7 +19,7 @@
     "picture": "https://avatars.githubusercontent.com/u/39424834?v=4",
     "email": "matthew.strasiotto [at] gmail [dot] com",
     "website": "https://straz.to",
-    "summary": "Full-stack engineer with security depth who ships customer-facing outcomes end-to-end; Polyglot, poly-stack, poly-role.",
+    "summary": "Full-stack software engineer with around four years of experience across IoT platforms, business software and application security. Works across product discovery, frontend and backend development, and AWS infrastructure, primarily using React, TypeScript, Kotlin/Spring Boot and PostgreSQL.",
     "location": {
       "city": "Eora/Sydney",
       "region": "NSW",
@@ -28,8 +28,8 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "matthewstrasiotto",
-        "url": "https://www.linkedin.com/in/matthewstrasiotto/"
+        "username": "strazto",
+        "url": "https://www.linkedin.com/in/strazto/"
       },
       {
         "network": "GitHub",
@@ -40,26 +40,57 @@
   },
   "work": [
     {
+      "company": "WBS Technology",
+      "location": "Sydney, NSW",
+      "position": "Software Engineer",
+      "startDate": "2026-01-07",
+      "summary": "Full-stack development of IoT management and business operations platforms, spanning product discovery, frontend and backend engineering, performance, and cloud infrastructure.",
+      "highlights": [
+        "Built bulk-management capabilities for thousands of IoT devices at a time, covering device settings, alerts and sensor-reporting rules.",
+        "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
+        "Used product analytics to identify improvements to customer and operational workflows.",
+        "Improved development and delivery workflows through AWS infrastructure as code, CI/CD and contributor tooling."
+      ],
+      "keywords": [
+        "React",
+        "TypeScript",
+        "Kotlin",
+        "Spring Boot",
+        "jOOQ",
+        "PostgreSQL",
+        "AWS",
+        "OpenTofu",
+        "CI/CD",
+        "PostHog",
+        "Splunk",
+        "IoT"
+      ]
+    },
+    {
       "company": "Logilica",
       "location": "Eora/Sydney, NSW",
       "position": "Software Engineer",
       "startDate": "2022-06-01",
-      "summary": "Full-stack engineer delivering customer-facing APIs and docs (TypeScript/React, Apollo GraphQL, OpenAPI, Cube.js).",
+      "endDate": "2026-01-06",
+      "summary": "Full-stack product engineering and a Snyk Code engagement spanning static-analysis rules, developer tooling and application security.",
       "url": "https://logilica.com",
       "highlights": [
-        "React/Typescript/NoSQL microservice based stack",
-        "Shipped self‑serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
-        "Implemented CI doc‑gen for Cube.js data models; docs‑as‑code keeps docs aligned with code.",
+        "Built product features with React, TypeScript, GraphQL, NoSQL and PostgreSQL.",
+        "Shipped self-serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
+        "Implemented CI doc-gen for Cube.js data models; docs-as-code keeps docs aligned with code.",
         "Built React + Apollo GraphQL features; strengthened typed UI→Graph contracts.",
         "Closed the loop with customers to prioritise onboarding and activation improvements.",
-        "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal"
+        "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal",
+        "Developed and reviewed static-analysis rules for Snyk Code across multiple languages and frameworks.",
+        "Investigated customer-reported findings and improved security modelling, reproduction guidance and developer documentation.",
+        "Built framework-documentation and coverage-reporting tooling."
       ],
       "keywords": [
         "AWS",
         "Apollo GraphQL",
         "CI/CD",
         "Cube.js",
-        "Docs‑as‑code",
+        "Docs-as-code",
         "OpenAPI",
         "SAST",
         "graphql",
@@ -67,38 +98,6 @@
         "nosql",
         "react",
         "typescript"
-      ]
-    },
-    {
-      "name": "Security Engineer (SAST) — Contractor",
-      "position": "Security Engineer (SAST), Contractor",
-      "company": "Global AppSec Vendor (via Logilica)",
-      "startDate": "2022-06-01",
-      "summary": "Static analysis rule delivery and developer enablement across multiple languages and frameworks.",
-      "highlights": [
-        "Owned and shipped language delivery MVPs for Groovy, Rust, Objective‑C, and Dart.",
-        "Contributed across broader ecosystems: Java, Go, Python, Swift, C++ (rules, tests, triage).",
-        "Built internal framework‑coverage reporting used by Eng leadership for roadmap clarity.",
-        "Authored embedded customer-facing rule docs explaining ‘why this triggers’ and safe patterns to reduce CX loops.",
-        "Improved taint/data‑flow models and triage conventions to raise signal‑to‑noise.",
-        "Handled customer tickets (including renewal-sensitive issues) and owned outcomes end-to-end with CX/Support."
-      ],
-      "keywords": [
-        "AppSec",
-        "Application Security",
-        "Dart",
-        "Developer education",
-        "Go",
-        "Groovy",
-        "Java",
-        "Objective‑C",
-        "Python",
-        "Rust",
-        "SAST",
-        "Security",
-        "Static analysis",
-        "Swift",
-        "Taint analysis"
       ]
     },
     {
@@ -164,23 +163,8 @@
   ],
   "projects": [
     {
-      "name": "Key Achievements",
-      "summary": "Selected product-engineering results that improved activation, API adoption, and developer docs across modern web stacks.",
-      "highlights": [
-        "Shipped self‑serve APIs with OpenAPI + embedded docs; reduced support load and accelerated customer activation.",
-        "Introduced coverage/visibility tooling that informed roadmap prioritisation and improved stakeholder confidence.",
-        "Operationalised docs‑as‑code with CI publishing to keep customer docs in lock‑step with code."
-      ],
-      "keywords": [
-        "Product impact",
-        "Activation",
-        "Docs‑as‑code",
-        "Coverage reporting"
-      ]
-    },
-    {
       "name": "Quokka Mobile App Migration (Flutter iOS & Android)",
-      "description": "Migrated an existing Android-first app into a polished cross‑platform mobile experience, focusing on a smooth onboarding flow and consistent, localized UI.",
+      "description": "Migrated an existing Android-first app into a polished cross-platform mobile experience, focusing on a smooth onboarding flow and consistent, localized UI.",
       "entity": "Quokka Computing",
       "type": "application",
       "roles": ["Mobile Engineer"],
@@ -197,10 +181,10 @@
       ],
       "highlights": [
         "Picked up and rapidly understood an established codebase; delivered iOS support without disrupting Android users.",
-        "Designed an intuitive device onboarding journey that guides users through pairing and Wi‑Fi setup with clear, human‑centred copy.",
-        "Implemented platform‑aware UX to gracefully handle iOS constraints so users can always complete setup via simple alternatives.",
-        "Centralized and localized all user‑facing text to ensure consistency, clarity and future translation readiness.",
-        "Aligned with stakeholders on scope and success criteria; validated flows on real devices to ensure a reliable first‑run experience."
+        "Designed an intuitive device onboarding journey that guides users through pairing and Wi-Fi setup with clear, human-centred copy.",
+        "Implemented platform-aware UX to gracefully handle iOS constraints so users can always complete setup via simple alternatives.",
+        "Centralized and localized all user-facing text to ensure consistency, clarity and future translation readiness.",
+        "Aligned with stakeholders on scope and success criteria; validated flows on real devices to ensure a reliable first-run experience."
       ]
     },
     {
@@ -272,11 +256,9 @@
     {
       "institution": "University of Sydney",
       "location": "Eora/Sydney, NSW",
-      "area": "Electrical Engineering - IoT Major",
-      "studyType": "Bachelor",
-      "startDate": "2017-03-01",
-      "endDate": "2021-07-01",
-      "gpa": "HD for CompSci units"
+      "area": "Electrical Engineering - Internet of Things major",
+      "studyType": "Bachelor of Engineering (Honours)",
+      "summary": "Study periods: 2017-2020 and 2025, with breaks for work. Graduated October 2026."
     },
     {
       "institution": "Griffith University",
@@ -313,12 +295,13 @@
         "javascript",
         "TypeScript",
         "React",
+        "React Query",
         "Vue.js",
         "GraphQL",
         "Apollo GraphQL",
         "OpenAPI",
         "Cube.js",
-        "Docs‑as‑code",
+        "Docs-as-code",
         "webpack",
         "bootstrap",
         "PHP/Symfony",
@@ -332,7 +315,7 @@
         "Flutter",
         "Dart",
         "Swift",
-        "Objective‑C"
+        "Objective-C"
       ]
     },
     {
@@ -347,6 +330,10 @@
         "python",
         "R",
         "java",
+        "Kotlin",
+        "Spring Boot",
+        "jOOQ",
+        "PostgreSQL",
         "Go",
         "Rust",
         "Groovy",
@@ -369,9 +356,11 @@
         "Docker",
         "Kubernetes",
         "Infrastructure as Code",
+        "OpenTofu",
+        "PostHog",
         "CI/CD",
         "OpenAPI",
-        "Docs‑as‑code",
+        "Docs-as-code",
         "Cube.js",
         "VS Code extension development",
         "vagrant",
@@ -395,7 +384,7 @@
         "Dependency & secrets scanning",
         "Groovy (target)",
         "Rust (target)",
-        "Objective‑C (target)",
+        "Objective-C (target)",
         "Dart (target)",
         "Java (target)",
         "Go (target)",
