@@ -12,6 +12,7 @@
   "scripts": {
     "get-theme": "./get-theme.js",
     "build": "resume export ./public/index.html",
+    "postbuild": "node scripts/finalize-html.js",
     "build:pdf": "/bin/sh -c 'resume export resume.pdf --theme $(pwd)/node_modules/jsonresume-theme-$(./get-theme.js)'"
   }
 }

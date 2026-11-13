@@ -100,13 +100,9 @@ jobs:
         with:
           # bust=${{ github.sha }} forces a cache bust
           webPageURL: https://straz.to/resume/?bust=${{ github.sha }}
-          outputFile: ./resume-draft.pdf
+          outputFile: ./resume.pdf
           usePuppeteer: true
-          useScreen: true
-          # "format": "letter", 
-          pdfOptions: '{"margin": {"top": "0mm", "left": "0mm", "right": "0mm", "bottom": "0mm"}}'
-      - name: Fix pdf
-        run: node fix-pdf.js resume-draft.pdf resume.pdf
+          pdfOptions: '{"format": "A4", "scale": 0.98, "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:

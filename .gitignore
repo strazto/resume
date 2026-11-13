@@ -118,4 +118,5 @@ dist
 .pnp.*
 
 /public/*.html
+/resume.pdf
 
