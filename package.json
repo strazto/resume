@@ -5,6 +5,7 @@
     "extract-json": "^0.2.0",
     "jsonresume-theme-eloquent": "^4.1.0",
     "jsonresume-theme-helloquan": "git+ssh://git@github.com/matthewstrasiotto/jsonresume-theme-helloquan.git#master",
+    "micromark": "2.11.4",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^14.1.1",
     "resume-cli": "^2.2.4"
@@ -12,7 +13,8 @@
   "scripts": {
     "get-theme": "./get-theme.js",
     "build": "resume export ./public/index.html",
-    "postbuild": "node scripts/finalize-html.js",
-    "build:pdf": "/bin/sh -c 'resume export resume.pdf --theme $(pwd)/node_modules/jsonresume-theme-$(./get-theme.js)'"
+    "postbuild": "node scripts/finalize-html.js && npm run build:application",
+    "build:application": "node scripts/build-application.js",
+    "build:pdf": "npm run build:application && node scripts/export-pdf.js"
   }
 }

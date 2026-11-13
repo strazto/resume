@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: #171717;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  line-height: 1.25;
+  font-variant-ligatures: none;
+}
+
+main { max-width: 210mm; margin: 0 auto; padding: 14mm; }
+h1, h2, h3, p, ul { margin: 0; }
+h1 { font-size: 23pt; line-height: 1.15; }
+h2 { font-size: 13pt; margin: 13pt 0 7pt; border-bottom: 1px solid #b9b9b9; padding-bottom: 3pt; }
+h3 { font-size: 11pt; line-height: 1.3; }
+p { margin-bottom: 4pt; }
+article { margin-bottom: 8pt; }
+.contact { margin-bottom: 12pt; }
+.contact p { font-size: 10pt; margin: 3pt 0 0; }
+.contact .title { font-size: 12pt; margin: 4pt 0 7pt; }
+.organisation { font-weight: bold; margin: 1pt 0; }
+.metadata { margin-bottom: 5pt; }
+.technologies { font-size: 10pt; margin-top: 5pt; }
+.skill { margin-bottom: 6pt; }
+ul { padding-left: 15pt; margin: 4pt 0; }
+li { padding-left: 1pt; margin-bottom: 2pt; }
+li p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+code { font-family: inherit; font-size: inherit; }
+
+@media screen {
+  a:hover, a:focus { text-decoration: underline; }
+}
+
+@page { size: A4; }
+
+@media print {
+  main { max-width: none; margin: 0; padding: 0; }
+  article, .skill, li { break-inside: avoid; page-break-inside: avoid; }
+  h1, h2, h3, .organisation, .metadata { break-after: avoid; page-break-after: avoid; }
+  p { orphans: 2; widows: 2; }
+}

@@ -1,4 +1,9 @@
 @media screen {
+  #application-download {
+    margin: 0 0 12px;
+    text-align: center;
+  }
+
   .detail-item-sidebar {
     overflow-wrap: anywhere;
   }

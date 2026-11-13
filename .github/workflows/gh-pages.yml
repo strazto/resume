@@ -29,19 +29,6 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - name: Capture current site baseline
-        run: |
-          URL="https://straz.to/resume/"
-          HEADERS=$(curl -sI -L -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' "${URL}?bust=baseline")
-          BASELINE_ETAG=$(echo "$HEADERS" | grep -i '^ETag:' | sed 's/^ETag:[[:space:]]*//I' | tr -d '\r"' || true)
-          BASELINE_LASTMOD=$(echo "$HEADERS" | grep -i '^Last-Modified:' | sed 's/^Last-Modified:[[:space:]]*//I' | tr -d '\r' || true)
-          BASELINE_HASH=$(curl -sL -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' "${URL}?bust=baseline" | sha256sum | cut -d' ' -f1 || true)
-          echo "Baseline etag: ${BASELINE_ETAG}"
-          echo "Baseline last-modified: ${BASELINE_LASTMOD}"
-          echo "Baseline hash: ${BASELINE_HASH}"
-          echo "BASELINE_ETAG=${BASELINE_ETAG}" >> $GITHUB_ENV
-          echo "BASELINE_LASTMOD=${BASELINE_LASTMOD}" >> $GITHUB_ENV
-          echo "BASELINE_HASH=${BASELINE_HASH}" >> $GITHUB_ENV
       - name: Find theme
         run: |
           echo "SITE_THEME=$(./get-theme.js)" >> $GITHUB_ENV
@@ -52,57 +39,31 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-      - name: Wait for content to refresh
-        id: wait_content
+      - name: Wait for the application resume to publish
         run: |
-          URL="https://straz.to/resume/"
-          echo "Waiting for content at $URL to differ from baseline..."
-          echo "Baseline etag: $BASELINE_ETAG"
-          echo "Baseline last-modified: $BASELINE_LASTMOD"
-          echo "Baseline hash: $BASELINE_HASH"
-          changed=false
-          etag=""
-          lastmod=""
+          URL="https://straz.to/resume/application.html?bust=${{ github.sha }}"
+          EXPECTED_HASH=$(sha256sum public/application.html | cut -d' ' -f1)
           for i in $(seq 1 60); do
-            HEADERS=$(curl -sI -L -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' "${URL}?bust=$(date +%s%3N)")
-            etag=$(echo "$HEADERS" | grep -i '^ETag:' | sed 's/^ETag:[[:space:]]*//I' | tr -d '\r"')
-            lastmod=$(echo "$HEADERS" | grep -i '^Last-Modified:' | sed 's/^Last-Modified:[[:space:]]*//I' | tr -d '\r')
-            if [ -n "$etag" ] && [ "$etag" != "$BASELINE_ETAG" ]; then
-              changed=true
-              echo "Content updated by ETag (new: $etag)"
-              break
+            if curl -fsSL -H 'Cache-Control: no-cache' "$URL" -o /tmp/published-resume.html; then
+              ACTUAL_HASH=$(sha256sum /tmp/published-resume.html | cut -d' ' -f1)
+              if [ "$ACTUAL_HASH" = "$EXPECTED_HASH" ]; then
+                echo "Published application resume matches this build."
+                exit 0
+              fi
             fi
-            if [ -n "$lastmod" ] && [ "$lastmod" != "$BASELINE_LASTMOD" ]; then
-              changed=true
-              echo "Content updated by Last-Modified (new: $lastmod)"
-              break
-            fi
-            BODY_HASH=$(curl -sL -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' "${URL}?bust=$(date +%s%3N)" | sha256sum | cut -d' ' -f1)
-            if [ -n "$BASELINE_HASH" ] && [ -n "$BODY_HASH" ] && [ "$BODY_HASH" != "$BASELINE_HASH" ]; then
-              changed=true
-              echo "Content updated by hash (new: $BODY_HASH)"
-              break
-            fi
-            echo "Attempt $i: unchanged (etag=$etag last-modified=$lastmod), retrying in 5s..."
+            echo "Attempt $i: waiting for the current application resume..."
             sleep 5
           done
-          echo "changed=$changed" >> $GITHUB_OUTPUT
-          echo "etag=${etag}" >> $GITHUB_OUTPUT
-          echo "last_modified=${lastmod}" >> $GITHUB_OUTPUT
-          if [ "$changed" = true ]; then
-            echo "::notice title=Content updated::ETag=$etag, Last-Modified=$lastmod"
-          else
-            echo "::notice title=Content unchanged::Proceeding with cache-busted fetch regardless"
-          fi
-          exit 0
+          echo "The application resume did not publish within five minutes."
+          exit 1
       - name: Build pdf
         uses: misaelnieto/web_to_pdf_action@master
         with:
           # bust=${{ github.sha }} forces a cache bust
-          webPageURL: https://straz.to/resume/?bust=${{ github.sha }}
+          webPageURL: https://straz.to/resume/application.html?bust=${{ github.sha }}
           outputFile: ./resume.pdf
           usePuppeteer: true
-          pdfOptions: '{"format": "A4", "scale": 0.98, "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          pdfOptions: '{"format": "A4", "scale": 1, "margin": {"top": "12mm", "left": "12mm", "right": "12mm", "bottom": "12mm"}}'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
