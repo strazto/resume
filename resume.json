@@ -48,6 +48,7 @@
       "highlights": [
         "Built bulk-management capabilities for thousands of IoT devices at a time, covering device settings, alerts and sensor-reporting rules.",
         "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
+        "Diagnosed faults across an IoT platform serving tens of thousands of devices using Splunk log analysis and PostHog.",
         "Automated AWS resource provisioning for development environments across two applications using OpenTofu."
       ],
       "keywords": [
