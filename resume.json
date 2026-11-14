@@ -44,13 +44,13 @@
       "location": "Sydney, NSW",
       "position": "Software Engineer",
       "startDate": "2026-01-07",
-      "summary": "Full-stack development of IoT management and business operations platforms, spanning frontend and backend engineering, cloud infrastructure, and product discovery using PostHog.",
+      "summary": "Full-stack development of IoT management and business operations platforms, spanning frontend and backend engineering, cloud infrastructure, and product discovery using PostHog. The IoT platform serves tens of thousands of devices and processes over a million messages a day.",
       "highlights": [
         "Built bulk-management capabilities for thousands of IoT devices at a time, covering device settings, alerts and sensor-reporting rules.",
         "Cut database time for a bulk device-settings lookup from 13 seconds to about 120 milliseconds.",
         "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
-        "Diagnosed faults across an IoT platform serving tens of thousands of devices using Splunk log analysis and PostHog.",
-        "Automated AWS resource provisioning for development environments across two applications using OpenTofu."
+        "Diagnosed production faults using Splunk logs and PostHog.",
+        "Automated AWS provisioning for development environments across multiple applications using OpenTofu."
       ],
       "keywords": [
         "React",
