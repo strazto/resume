@@ -46,7 +46,7 @@
       "startDate": "2026-01-07",
       "summary": "Full-stack development of IoT management and business operations platforms, spanning frontend and backend engineering, cloud infrastructure, and product discovery using PostHog. The IoT platform serves tens of thousands of devices and processes over a million messages a day.",
       "highlights": [
-        "Built bulk-management capabilities for thousands of IoT devices at a time, covering device settings, alerts and sensor-reporting rules.",
+        "Built tools that let operators change settings, alerts and sensor reporting rules for thousands of IoT devices at once.",
         "Cut database time for a bulk device-settings lookup from 13 seconds to about 120 milliseconds.",
         "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
         "Diagnosed production faults using Splunk logs and PostHog.",
@@ -80,11 +80,10 @@
         "Shipped self-serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
         "Implemented CI doc-gen for Cube.js data models; docs-as-code keeps docs aligned with code.",
         "Built React + Apollo GraphQL features; strengthened typed UI→Graph contracts.",
-        "Closed the loop with customers to prioritise onboarding and activation improvements.",
         "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal",
         "Developed and reviewed static-analysis rules for Snyk Code across multiple languages and frameworks.",
         "Investigated customer-reported findings and improved security modelling, reproduction guidance and developer documentation.",
-        "Built framework-documentation and coverage-reporting tooling."
+        "Built tools to document and track which frameworks Snyk Code supports in each programming language."
       ],
       "keywords": [
         "AWS",
