@@ -47,6 +47,7 @@
       "summary": "Full-stack development of IoT management and business operations platforms, spanning frontend and backend engineering, cloud infrastructure, and product discovery using PostHog.",
       "highlights": [
         "Built bulk-management capabilities for thousands of IoT devices at a time, covering device settings, alerts and sensor-reporting rules.",
+        "Cut database time for a bulk device-settings lookup from 13 seconds to about 120 milliseconds.",
         "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
         "Diagnosed faults across an IoT platform serving tens of thousands of devices using Splunk log analysis and PostHog.",
         "Automated AWS resource provisioning for development environments across two applications using OpenTofu."
