@@ -77,8 +77,8 @@
       "url": "https://logilica.com",
       "highlights": [
         "Built product features with React, TypeScript, GraphQL, NoSQL and PostgreSQL.",
-        "Owned delivery of initial static-analysis rule support for Groovy, Objective-C and Rust in Snyk Code. Adapted Java framework models and rules for Groovy.",
-        "Provided production support for Snyk Code customers, investigating findings across Java codebases.",
+        "Owned delivery of initial static-analysis rule support for Groovy, Objective-C and Rust in Snyk Code.",
+        "Provided production support for Snyk Code customers, advising on remediation and using reported findings to refine security models and update developer documentation.",
         "Built the Playwright end-to-end test infrastructure for Logilica, wrote tests with synthetic data, and automated environment setup and teardown for reliable runs in GitHub Actions.",
         "Shipped self-serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
         "Implemented CI doc-gen for Cube.js data models; docs-as-code keeps docs aligned with code.",
