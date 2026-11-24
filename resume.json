@@ -50,8 +50,9 @@
         "Built tools that let operators change settings, alerts and sensor reporting rules for thousands of IoT devices at once.",
         "Cut database time for a bulk device-settings lookup from 13 seconds to about 120 milliseconds.",
         "Developed end-to-end workflows for emergency-light testing and compliance reporting.",
-        "Diagnosed production faults using Splunk logs and PostHog.",
-        "Automated AWS provisioning for development environments across multiple applications using OpenTofu."
+        "Diagnose production issues across the IoT platform using Splunk logs and PostHog session replays. When customers saw devices marked offline, traced the fault to a change in how the backend decoded incoming messages and wrote the rollback that restored device reporting.",
+        "Automated AWS provisioning for development environments across multiple applications using OpenTofu.",
+        "Stopped back-to-back merges from interrupting production releases by queuing deployments in the IoT and commerce CI/CD pipelines. Repaired staging refreshes from production snapshots and gave engineers dedicated SQS queues to test IoT changes locally with live device traffic."
       ],
       "keywords": [
         "React",
@@ -81,8 +82,7 @@
         "Owned delivery of initial static-analysis rule support for Groovy, Objective-C and Rust in Snyk Code.",
         "Provided production support for Snyk Code customers, advising on remediation and using reported findings to refine security models and update developer documentation.",
         "Built the Playwright end-to-end test infrastructure for Logilica, wrote tests with synthetic data, and automated environment setup and teardown for reliable runs in GitHub Actions.",
-        "Shipped self-serve data/API: OpenAPI spec, secure endpoints, embedded API docs.",
-        "Implemented CI doc-gen for Cube.js data models; docs-as-code keeps docs aligned with code.",
+        "Gave customers direct access to engineering data through an API with embedded OpenAPI documentation. Built tooling for engineers to document metrics inline in Cube.js schemas and shipped those definitions as a self-service reference for customers writing their own queries.",
         "Developed and deployed kubernetes IaC stack to variety of environments including AWS + bare-metal",
         "Built tools to document and track which frameworks Snyk Code supports in each programming language."
       ],
