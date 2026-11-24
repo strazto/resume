@@ -21,7 +21,8 @@
     "website": "https://straz.to",
     "summary": "Full-stack software engineer with around four years of experience across IoT platforms, business software and application security. Works across product discovery, frontend and backend development, and AWS infrastructure, primarily using React, TypeScript, Kotlin/Spring Boot and PostgreSQL.",
     "location": {
-      "city": "Eora/Sydney",
+      "city": "Sydney",
+      "traditionalCountry": "Eora Country",
       "region": "NSW",
       "countryCode": "AU"
     },
@@ -69,7 +70,7 @@
     },
     {
       "company": "Logilica",
-      "location": "Eora/Sydney, NSW",
+      "location": "Sydney, NSW (Eora Country)",
       "position": "Software Engineer",
       "startDate": "2022-06-01",
       "endDate": "2026-01-06",
@@ -102,7 +103,7 @@
     },
     {
       "company": "University of Sydney - Faculty of Medicine + NSW Health",
-      "location": "Eora/Sydney, NSW",
+      "location": "Sydney, NSW (Eora Country)",
       "position": "Software Engineer",
       "startDate": "2018-12-01",
       "endDate": "2021-07-01",
@@ -122,7 +123,7 @@
     },
     {
       "company": "University of NSW - Business School",
-      "location": "Eora/Sydney, NSW",
+      "location": "Sydney, NSW (Eora Country)",
       "position": "Academic Tutor",
       "startDate": "2021-08-01",
       "endDate": "2022-05-01",
@@ -133,7 +134,7 @@
     },
     {
       "company": "University of Sydney - School of Computer Science + Elec. Eng.",
-      "location": "Eora/Sydney, NSW",
+      "location": "Sydney, NSW (Eora Country)",
       "position": "Academic Tutor",
       "startDate": "2018-08-01",
       "endDate": "2021-12-01",
@@ -149,7 +150,7 @@
   "volunteer": [
     {
       "organization": "Westmead Children's Hospital",
-      "location": "Darug/Westmead",
+      "location": "Westmead, NSW (Darug Country)",
       "position": "Contingency Worker/Researcher",
       "startDate": "2017-12-01",
       "endDate": "2018-03-01",
@@ -251,14 +252,14 @@
   "education": [
     {
       "institution": "University of Sydney",
-      "location": "Eora/Sydney, NSW",
+      "location": "Sydney, NSW (Eora Country)",
       "area": "Electrical Engineering - Internet of Things major",
       "studyType": "Bachelor of Engineering (Honours)",
       "summary": "Study periods: 2017-2020 and 2025, with breaks for work. Graduated October 2026."
     },
     {
       "institution": "Griffith University",
-      "location": "Jagera/Turrbal/Brisbane, QLD",
+      "location": "Brisbane, QLD (Jagera and Turrbal Country)",
       "area": "Electronic Eng / Information Technology",
       "studyType": "Dual Bachelors",
       "startDate": "2016-03-01",
