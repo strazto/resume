@@ -38,6 +38,7 @@ code { font-family: inherit; font-size: inherit; }
 
 @media print {
   main { max-width: none; margin: 0; padding: 0; }
+  li { margin-bottom: 1pt; }
   article, .skill, li { break-inside: avoid; page-break-inside: avoid; }
   h1, h2, h3, .organisation, .metadata { break-after: avoid; page-break-after: avoid; }
   p { orphans: 2; widows: 2; }

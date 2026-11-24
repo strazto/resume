@@ -102,7 +102,11 @@ const email = basics.email;
 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
   throw new Error('The application resume needs a readable email address.');
 }
-const location = [basics.location.city, basics.location.region, basics.location.countryCode].filter(Boolean).join(', ');
+const { city, region, countryCode, traditionalCountry } = basics.location;
+const cityRegion = [city, region].filter(Boolean).join(', ');
+const location = traditionalCountry
+  ? [cityRegion, `(${traditionalCountry})`].filter(Boolean).join(' ')
+  : [cityRegion, countryCode].filter(Boolean).join(', ');
 const contactLinks = [
   basics.website && link(basics.website, basics.website.replace(/^https?:\/\//, '')),
   ...(basics.profiles || []).map(profile => link(profile.url, profile.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))),
